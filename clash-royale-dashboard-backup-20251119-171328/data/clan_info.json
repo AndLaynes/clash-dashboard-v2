@@ -1,0 +1,873 @@
+{
+    "tag": "#9PJRJRPC",
+    "name": "OS GUARDIÕES",
+    "type": "open",
+    "description": "Seja bem vindo(a) Clã focado em guerras, 1 dia sem atacar é expulsão ! Dias de guerra são de toda quinta a domingo. Vamoos !! 🥇",
+    "badgeId": 16000058,
+    "clanScore": 98777,
+    "clanWarTrophies": 3097,
+    "location": {
+        "id": 57000038,
+        "name": "Brazil",
+        "isCountry": true,
+        "countryCode": "BR"
+    },
+    "requiredTrophies": 10000,
+    "donationsPerWeek": 4856,
+    "clanChestStatus": "inactive",
+    "clanChestLevel": 1,
+    "clanChestMaxLevel": 0,
+    "members": 50,
+    "memberList": [
+        {
+            "tag": "#Y8R9V2URG",
+            "name": "JOAOVITOR:D",
+            "role": "elder",
+            "lastSeen": "20251119T192046.000Z",
+            "expLevel": 51,
+            "trophies": 10000,
+            "arena": {
+                "id": 54000031,
+                "name": "Legendary Arena"
+            },
+            "clanRank": 1,
+            "previousClanRank": 11,
+            "donations": 36,
+            "donationsReceived": 240,
+            "clanChestPoints": 0
+        },
+        {
+            "tag": "#9GPRG9QPL",
+            "name": "Guizx7",
+            "role": "elder",
+            "lastSeen": "20251119T191243.000Z",
+            "expLevel": 50,
+            "trophies": 10000,
+            "arena": {
+                "id": 54000031,
+                "name": "Legendary Arena"
+            },
+            "clanRank": 2,
+            "previousClanRank": 1,
+            "donations": 413,
+            "donationsReceived": 320,
+            "clanChestPoints": 0
+        },
+        {
+            "tag": "#J8JQ8LQUY",
+            "name": "PeitinDoGalego",
+            "role": "member",
+            "lastSeen": "20251119T190933.000Z",
+            "expLevel": 50,
+            "trophies": 10000,
+            "arena": {
+                "id": 54000031,
+                "name": "Legendary Arena"
+            },
+            "clanRank": 3,
+            "previousClanRank": 9,
+            "donations": 202,
+            "donationsReceived": 80,
+            "clanChestPoints": 0
+        },
+        {
+            "tag": "#82QC0YL2C",
+            "name": "Theus Carvalho",
+            "role": "elder",
+            "lastSeen": "20251119T190815.000Z",
+            "expLevel": 48,
+            "trophies": 10000,
+            "arena": {
+                "id": 54000031,
+                "name": "Legendary Arena"
+            },
+            "clanRank": 4,
+            "previousClanRank": 15,
+            "donations": 66,
+            "donationsReceived": 272,
+            "clanChestPoints": 0
+        },
+        {
+            "tag": "#YPJUU2ULU",
+            "name": "Vinícius",
+            "role": "elder",
+            "lastSeen": "20251119T190717.000Z",
+            "expLevel": 56,
+            "trophies": 10000,
+            "arena": {
+                "id": 54000031,
+                "name": "Legendary Arena"
+            },
+            "clanRank": 5,
+            "previousClanRank": 13,
+            "donations": 92,
+            "donationsReceived": 80,
+            "clanChestPoints": 0
+        },
+        {
+            "tag": "#PJL0Q2J2",
+            "name": "PedrinhoR14",
+            "role": "member",
+            "lastSeen": "20251119T190417.000Z",
+            "expLevel": 56,
+            "trophies": 10000,
+            "arena": {
+                "id": 54000031,
+                "name": "Legendary Arena"
+            },
+            "clanRank": 6,
+            "previousClanRank": 6,
+            "donations": 18,
+            "donationsReceived": 40,
+            "clanChestPoints": 0
+        },
+        {
+            "tag": "#8U008PQU8",
+            "name": "RobaFrag",
+            "role": "coLeader",
+            "lastSeen": "20251119T190401.000Z",
+            "expLevel": 51,
+            "trophies": 10000,
+            "arena": {
+                "id": 54000031,
+                "name": "Legendary Arena"
+            },
+            "clanRank": 7,
+            "previousClanRank": 16,
+            "donations": 351,
+            "donationsReceived": 304,
+            "clanChestPoints": 0
+        },
+        {
+            "tag": "#UPR022QUR",
+            "name": "Bruno",
+            "role": "elder",
+            "lastSeen": "20251119T185958.000Z",
+            "expLevel": 58,
+            "trophies": 10000,
+            "arena": {
+                "id": 54000031,
+                "name": "Legendary Arena"
+            },
+            "clanRank": 8,
+            "previousClanRank": 10,
+            "donations": 0,
+            "donationsReceived": 0,
+            "clanChestPoints": 0
+        },
+        {
+            "tag": "#2LR0RR89Q",
+            "name": "Chetto",
+            "role": "elder",
+            "lastSeen": "20251119T184819.000Z",
+            "expLevel": 55,
+            "trophies": 10000,
+            "arena": {
+                "id": 54000031,
+                "name": "Legendary Arena"
+            },
+            "clanRank": 9,
+            "previousClanRank": 18,
+            "donations": 141,
+            "donationsReceived": 160,
+            "clanChestPoints": 0
+        },
+        {
+            "tag": "#U220VCULP",
+            "name": "joão3:16",
+            "role": "coLeader",
+            "lastSeen": "20251119T184219.000Z",
+            "expLevel": 55,
+            "trophies": 10000,
+            "arena": {
+                "id": 54000031,
+                "name": "Legendary Arena"
+            },
+            "clanRank": 10,
+            "previousClanRank": 29,
+            "donations": 48,
+            "donationsReceived": 40,
+            "clanChestPoints": 0
+        },
+        {
+            "tag": "#LLGUL2RUJ",
+            "name": "mathi❄️",
+            "role": "member",
+            "lastSeen": "20251119T183108.000Z",
+            "expLevel": 54,
+            "trophies": 10000,
+            "arena": {
+                "id": 54000031,
+                "name": "Legendary Arena"
+            },
+            "clanRank": 11,
+            "previousClanRank": 24,
+            "donations": 58,
+            "donationsReceived": 160,
+            "clanChestPoints": 0
+        },
+        {
+            "tag": "#9QG0U8YCQ",
+            "name": "DavidSantana",
+            "role": "elder",
+            "lastSeen": "20251119T182324.000Z",
+            "expLevel": 54,
+            "trophies": 10000,
+            "arena": {
+                "id": 54000031,
+                "name": "Legendary Arena"
+            },
+            "clanRank": 12,
+            "previousClanRank": 2,
+            "donations": 219,
+            "donationsReceived": 0,
+            "clanChestPoints": 0
+        },
+        {
+            "tag": "#22CGYQ2UP",
+            "name": "MJK⚡️SPARKY",
+            "role": "elder",
+            "lastSeen": "20251119T182304.000Z",
+            "expLevel": 64,
+            "trophies": 10000,
+            "arena": {
+                "id": 54000031,
+                "name": "Legendary Arena"
+            },
+            "clanRank": 13,
+            "previousClanRank": 12,
+            "donations": 62,
+            "donationsReceived": 0,
+            "clanChestPoints": 0
+        },
+        {
+            "tag": "#208JPG9R",
+            "name": "antedeguemon",
+            "role": "elder",
+            "lastSeen": "20251119T173340.000Z",
+            "expLevel": 49,
+            "trophies": 10000,
+            "arena": {
+                "id": 54000031,
+                "name": "Legendary Arena"
+            },
+            "clanRank": 14,
+            "previousClanRank": 7,
+            "donations": 74,
+            "donationsReceived": 160,
+            "clanChestPoints": 0
+        },
+        {
+            "tag": "#VLYU9Y2Y",
+            "name": "AUGUSTO",
+            "role": "member",
+            "lastSeen": "20251119T170821.000Z",
+            "expLevel": 57,
+            "trophies": 10000,
+            "arena": {
+                "id": 54000031,
+                "name": "Legendary Arena"
+            },
+            "clanRank": 15,
+            "previousClanRank": 3,
+            "donations": 304,
+            "donationsReceived": 0,
+            "clanChestPoints": 0
+        },
+        {
+            "tag": "#YJUG9Y88",
+            "name": "Dockz",
+            "role": "elder",
+            "lastSeen": "20251119T161211.000Z",
+            "expLevel": 57,
+            "trophies": 10000,
+            "arena": {
+                "id": 54000031,
+                "name": "Legendary Arena"
+            },
+            "clanRank": 16,
+            "previousClanRank": 4,
+            "donations": 53,
+            "donationsReceived": 0,
+            "clanChestPoints": 0
+        },
+        {
+            "tag": "#UJRLJY0L2",
+            "name": "51 é pinga",
+            "role": "coLeader",
+            "lastSeen": "20251119T161019.000Z",
+            "expLevel": 51,
+            "trophies": 10000,
+            "arena": {
+                "id": 54000031,
+                "name": "Legendary Arena"
+            },
+            "clanRank": 17,
+            "previousClanRank": 22,
+            "donations": 94,
+            "donationsReceived": 160,
+            "clanChestPoints": 0
+        },
+        {
+            "tag": "#R9UP0QLR9",
+            "name": "ZackThunder",
+            "role": "elder",
+            "lastSeen": "20251119T160545.000Z",
+            "expLevel": 52,
+            "trophies": 10000,
+            "arena": {
+                "id": 54000031,
+                "name": "Legendary Arena"
+            },
+            "clanRank": 18,
+            "previousClanRank": 14,
+            "donations": 96,
+            "donationsReceived": 0,
+            "clanChestPoints": 0
+        },
+        {
+            "tag": "#U8VP8L8L0",
+            "name": "tavin",
+            "role": "elder",
+            "lastSeen": "20251119T154841.000Z",
+            "expLevel": 41,
+            "trophies": 10000,
+            "arena": {
+                "id": 54000031,
+                "name": "Legendary Arena"
+            },
+            "clanRank": 19,
+            "previousClanRank": 17,
+            "donations": 195,
+            "donationsReceived": 200,
+            "clanChestPoints": 0
+        },
+        {
+            "tag": "#9PLVLLVR2",
+            "name": "ArthurNoSkill●",
+            "role": "member",
+            "lastSeen": "20251119T151329.000Z",
+            "expLevel": 46,
+            "trophies": 10000,
+            "arena": {
+                "id": 54000031,
+                "name": "Legendary Arena"
+            },
+            "clanRank": 20,
+            "previousClanRank": 20,
+            "donations": 0,
+            "donationsReceived": 0,
+            "clanChestPoints": 0
+        },
+        {
+            "tag": "#2VLR9U90",
+            "name": "EDDIE",
+            "role": "coLeader",
+            "lastSeen": "20251119T142130.000Z",
+            "expLevel": 60,
+            "trophies": 10000,
+            "arena": {
+                "id": 54000031,
+                "name": "Legendary Arena"
+            },
+            "clanRank": 21,
+            "previousClanRank": 8,
+            "donations": 150,
+            "donationsReceived": 0,
+            "clanChestPoints": 0
+        },
+        {
+            "tag": "#8C8RY8GL9",
+            "name": "Zenitsu愛",
+            "role": "coLeader",
+            "lastSeen": "20251119T135357.000Z",
+            "expLevel": 55,
+            "trophies": 10000,
+            "arena": {
+                "id": 54000031,
+                "name": "Legendary Arena"
+            },
+            "clanRank": 22,
+            "previousClanRank": 28,
+            "donations": 0,
+            "donationsReceived": 0,
+            "clanChestPoints": 0
+        },
+        {
+            "tag": "#V9PCU0LCV",
+            "name": "gabiggoughost",
+            "role": "coLeader",
+            "lastSeen": "20251119T114056.000Z",
+            "expLevel": 55,
+            "trophies": 10000,
+            "arena": {
+                "id": 54000031,
+                "name": "Legendary Arena"
+            },
+            "clanRank": 23,
+            "previousClanRank": 23,
+            "donations": 54,
+            "donationsReceived": 80,
+            "clanChestPoints": 0
+        },
+        {
+            "tag": "#R29QRVQGU",
+            "name": "Reus",
+            "role": "member",
+            "lastSeen": "20251119T091119.000Z",
+            "expLevel": 59,
+            "trophies": 10000,
+            "arena": {
+                "id": 54000031,
+                "name": "Legendary Arena"
+            },
+            "clanRank": 24,
+            "previousClanRank": 21,
+            "donations": 26,
+            "donationsReceived": 0,
+            "clanChestPoints": 0
+        },
+        {
+            "tag": "#90U8CVP90",
+            "name": "Mila",
+            "role": "coLeader",
+            "lastSeen": "20251119T033202.000Z",
+            "expLevel": 57,
+            "trophies": 10000,
+            "arena": {
+                "id": 54000031,
+                "name": "Legendary Arena"
+            },
+            "clanRank": 25,
+            "previousClanRank": 26,
+            "donations": 8,
+            "donationsReceived": 0,
+            "clanChestPoints": 0
+        },
+        {
+            "tag": "#2P299V0CU",
+            "name": "Sotto ツ",
+            "role": "member",
+            "lastSeen": "20251119T015035.000Z",
+            "expLevel": 58,
+            "trophies": 10000,
+            "arena": {
+                "id": 54000031,
+                "name": "Legendary Arena"
+            },
+            "clanRank": 26,
+            "previousClanRank": 5,
+            "donations": 128,
+            "donationsReceived": 160,
+            "clanChestPoints": 0
+        },
+        {
+            "tag": "#RUQ90VLVP",
+            "name": "MegaJoaoReal",
+            "role": "member",
+            "lastSeen": "20251118T181657.000Z",
+            "expLevel": 51,
+            "trophies": 10000,
+            "arena": {
+                "id": 54000031,
+                "name": "Legendary Arena"
+            },
+            "clanRank": 27,
+            "previousClanRank": 19,
+            "donations": 38,
+            "donationsReceived": 120,
+            "clanChestPoints": 0
+        },
+        {
+            "tag": "#8R2LRC80Q",
+            "name": "Daniele❤",
+            "role": "elder",
+            "lastSeen": "20251117T235155.000Z",
+            "expLevel": 46,
+            "trophies": 10000,
+            "arena": {
+                "id": 54000031,
+                "name": "Legendary Arena"
+            },
+            "clanRank": 28,
+            "previousClanRank": 25,
+            "donations": 26,
+            "donationsReceived": 40,
+            "clanChestPoints": 0
+        },
+        {
+            "tag": "#PQV9QQRQ0",
+            "name": "luba",
+            "role": "coLeader",
+            "lastSeen": "20251116T231039.000Z",
+            "expLevel": 56,
+            "trophies": 10000,
+            "arena": {
+                "id": 54000031,
+                "name": "Legendary Arena"
+            },
+            "clanRank": 29,
+            "previousClanRank": 27,
+            "donations": 0,
+            "donationsReceived": 0,
+            "clanChestPoints": 0
+        },
+        {
+            "tag": "#VUQ0PV8PV",
+            "name": "andrebts",
+            "role": "coLeader",
+            "lastSeen": "20251119T145837.000Z",
+            "expLevel": 46,
+            "trophies": 9659,
+            "arena": {
+                "id": 54000031,
+                "name": "Legendary Arena"
+            },
+            "clanRank": 30,
+            "previousClanRank": 30,
+            "donations": 68,
+            "donationsReceived": 240,
+            "clanChestPoints": 0
+        },
+        {
+            "tag": "#UU0RCRLQU",
+            "name": "super",
+            "role": "elder",
+            "lastSeen": "20251118T222857.000Z",
+            "expLevel": 44,
+            "trophies": 9618,
+            "arena": {
+                "id": 54000031,
+                "name": "Legendary Arena"
+            },
+            "clanRank": 31,
+            "previousClanRank": 31,
+            "donations": 50,
+            "donationsReceived": 120,
+            "clanChestPoints": 0
+        },
+        {
+            "tag": "#Q8098VGG",
+            "name": "Sasuke",
+            "role": "elder",
+            "lastSeen": "20251119T192415.000Z",
+            "expLevel": 42,
+            "trophies": 9589,
+            "arena": {
+                "id": 54000031,
+                "name": "Legendary Arena"
+            },
+            "clanRank": 32,
+            "previousClanRank": 32,
+            "donations": 42,
+            "donationsReceived": 80,
+            "clanChestPoints": 0
+        },
+        {
+            "tag": "#8CVU0PP00",
+            "name": "carlos Daniel",
+            "role": "elder",
+            "lastSeen": "20251119T155600.000Z",
+            "expLevel": 47,
+            "trophies": 9508,
+            "arena": {
+                "id": 54000031,
+                "name": "Legendary Arena"
+            },
+            "clanRank": 33,
+            "previousClanRank": 33,
+            "donations": 60,
+            "donationsReceived": 120,
+            "clanChestPoints": 0
+        },
+        {
+            "tag": "#28PQJJU2G",
+            "name": "Gustavo Clash",
+            "role": "coLeader",
+            "lastSeen": "20251119T010719.000Z",
+            "expLevel": 55,
+            "trophies": 9419,
+            "arena": {
+                "id": 54000020,
+                "name": "Valkalla"
+            },
+            "clanRank": 34,
+            "previousClanRank": 34,
+            "donations": 86,
+            "donationsReceived": 40,
+            "clanChestPoints": 0
+        },
+        {
+            "tag": "#GRY890GY2",
+            "name": "domador de but",
+            "role": "coLeader",
+            "lastSeen": "20251119T143809.000Z",
+            "expLevel": 50,
+            "trophies": 9360,
+            "arena": {
+                "id": 54000020,
+                "name": "Valkalla"
+            },
+            "clanRank": 35,
+            "previousClanRank": 35,
+            "donations": 174,
+            "donationsReceived": 200,
+            "clanChestPoints": 0
+        },
+        {
+            "tag": "#UJRQ2L09",
+            "name": "O GUARDIÃO",
+            "role": "leader",
+            "lastSeen": "20251119T153047.000Z",
+            "expLevel": 56,
+            "trophies": 9305,
+            "arena": {
+                "id": 54000020,
+                "name": "Valkalla"
+            },
+            "clanRank": 36,
+            "previousClanRank": 36,
+            "donations": 152,
+            "donationsReceived": 0,
+            "clanChestPoints": 0
+        },
+        {
+            "tag": "#200JYCVYGY",
+            "name": "Rodolfos",
+            "role": "coLeader",
+            "lastSeen": "20251118T202034.000Z",
+            "expLevel": 52,
+            "trophies": 9244,
+            "arena": {
+                "id": 54000020,
+                "name": "Valkalla"
+            },
+            "clanRank": 37,
+            "previousClanRank": 37,
+            "donations": 0,
+            "donationsReceived": 0,
+            "clanChestPoints": 0
+        },
+        {
+            "tag": "#LVGCLQQ8L",
+            "name": "Luciano",
+            "role": "elder",
+            "lastSeen": "20251119T174434.000Z",
+            "expLevel": 53,
+            "trophies": 9242,
+            "arena": {
+                "id": 54000020,
+                "name": "Valkalla"
+            },
+            "clanRank": 38,
+            "previousClanRank": 38,
+            "donations": 236,
+            "donationsReceived": 360,
+            "clanChestPoints": 0
+        },
+        {
+            "tag": "#C9PY8URJQ",
+            "name": "yNoobZy",
+            "role": "elder",
+            "lastSeen": "20251118T224014.000Z",
+            "expLevel": 46,
+            "trophies": 9101,
+            "arena": {
+                "id": 54000020,
+                "name": "Valkalla"
+            },
+            "clanRank": 39,
+            "previousClanRank": 39,
+            "donations": 8,
+            "donationsReceived": 130,
+            "clanChestPoints": 0
+        },
+        {
+            "tag": "#8JULVVL0J",
+            "name": "Alvaro",
+            "role": "coLeader",
+            "lastSeen": "20251118T195216.000Z",
+            "expLevel": 49,
+            "trophies": 9000,
+            "arena": {
+                "id": 54000020,
+                "name": "Valkalla"
+            },
+            "clanRank": 40,
+            "previousClanRank": 40,
+            "donations": 8,
+            "donationsReceived": 0,
+            "clanChestPoints": 0
+        },
+        {
+            "tag": "#PYVJVURP0",
+            "name": "NEGUIM244",
+            "role": "member",
+            "lastSeen": "20251119T155051.000Z",
+            "expLevel": 44,
+            "trophies": 8724,
+            "arena": {
+                "id": 54000019,
+                "name": "PANCAKES!"
+            },
+            "clanRank": 41,
+            "previousClanRank": 41,
+            "donations": 44,
+            "donationsReceived": 40,
+            "clanChestPoints": 0
+        },
+        {
+            "tag": "#88U9PLGVV",
+            "name": "petrus",
+            "role": "member",
+            "lastSeen": "20251119T191830.000Z",
+            "expLevel": 40,
+            "trophies": 8630,
+            "arena": {
+                "id": 54000019,
+                "name": "PANCAKES!"
+            },
+            "clanRank": 42,
+            "previousClanRank": 43,
+            "donations": 336,
+            "donationsReceived": 40,
+            "clanChestPoints": 0
+        },
+        {
+            "tag": "#PCPCJU20Y",
+            "name": "polaris",
+            "role": "elder",
+            "lastSeen": "20251119T121323.000Z",
+            "expLevel": 43,
+            "trophies": 8624,
+            "arena": {
+                "id": 54000019,
+                "name": "PANCAKES!"
+            },
+            "clanRank": 43,
+            "previousClanRank": 42,
+            "donations": 0,
+            "donationsReceived": 200,
+            "clanChestPoints": 0
+        },
+        {
+            "tag": "#C8C20C0JQ",
+            "name": "isp",
+            "role": "elder",
+            "lastSeen": "20251119T131146.000Z",
+            "expLevel": 45,
+            "trophies": 8583,
+            "arena": {
+                "id": 54000019,
+                "name": "PANCAKES!"
+            },
+            "clanRank": 44,
+            "previousClanRank": 45,
+            "donations": 34,
+            "donationsReceived": 120,
+            "clanChestPoints": 0
+        },
+        {
+            "tag": "#9PCQY89PV",
+            "name": "luisinn7",
+            "role": "coLeader",
+            "lastSeen": "20251118T131140.000Z",
+            "expLevel": 48,
+            "trophies": 8530,
+            "arena": {
+                "id": 54000019,
+                "name": "PANCAKES!"
+            },
+            "clanRank": 45,
+            "previousClanRank": 44,
+            "donations": 0,
+            "donationsReceived": 0,
+            "clanChestPoints": 0
+        },
+        {
+            "tag": "#LYL9CU0P0",
+            "name": "OneDePrata",
+            "role": "coLeader",
+            "lastSeen": "20251118T140108.000Z",
+            "expLevel": 48,
+            "trophies": 8448,
+            "arena": {
+                "id": 54000018,
+                "name": "Clash Fest"
+            },
+            "clanRank": 46,
+            "previousClanRank": 46,
+            "donations": 70,
+            "donationsReceived": 120,
+            "clanChestPoints": 0
+        },
+        {
+            "tag": "#C8G9JJL89",
+            "name": "santsx777",
+            "role": "elder",
+            "lastSeen": "20251119T191712.000Z",
+            "expLevel": 36,
+            "trophies": 8088,
+            "arena": {
+                "id": 54000018,
+                "name": "Clash Fest"
+            },
+            "clanRank": 47,
+            "previousClanRank": 47,
+            "donations": 430,
+            "donationsReceived": 230,
+            "clanChestPoints": 0
+        },
+        {
+            "tag": "#PVJULCYQQ",
+            "name": "H A R D's",
+            "role": "elder",
+            "lastSeen": "20251119T111125.000Z",
+            "expLevel": 43,
+            "trophies": 8050,
+            "arena": {
+                "id": 54000018,
+                "name": "Clash Fest"
+            },
+            "clanRank": 48,
+            "previousClanRank": 48,
+            "donations": 28,
+            "donationsReceived": 120,
+            "clanChestPoints": 0
+        },
+        {
+            "tag": "#99PJ9QQPC",
+            "name": "⭐O SENTINELA ⭐",
+            "role": "coLeader",
+            "lastSeen": "20251119T020424.000Z",
+            "expLevel": 51,
+            "trophies": 8028,
+            "arena": {
+                "id": 54000018,
+                "name": "Clash Fest"
+            },
+            "clanRank": 49,
+            "previousClanRank": 49,
+            "donations": 26,
+            "donationsReceived": 0,
+            "clanChestPoints": 0
+        },
+        {
+            "tag": "#9RPCC2VCG",
+            "name": "DGJ-DAVI",
+            "role": "elder",
+            "lastSeen": "20251117T172727.000Z",
+            "expLevel": 41,
+            "trophies": 7316,
+            "arena": {
+                "id": 54000016,
+                "name": "Dragon Spa"
+            },
+            "clanRank": 50,
+            "previousClanRank": 50,
+            "donations": 0,
+            "donationsReceived": 0,
+            "clanChestPoints": 0
+        }
+    ]
+}

@@ -1,0 +1,1378 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Auditoria Diária - OS GUARDIÕES</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="static/style.css">
+</head>
+
+<body>
+    <div class="app-container">
+
+        <!-- Header Unificado - Inclua em todos os templates -->
+<header class="main-header">
+    <div class="header-bg-pattern"></div>
+    <div class="logo-area">
+        <img src="https://cdn-icons-png.flaticon.com/512/1165/1165305.png" alt="Clash Royale Logo"
+            class="cr-logo pulse">
+        <div class="clan-info">
+            <h1 class="clan-name">OS GUARDIÕES</h1>
+            <div class="clan-meta">
+                <span class="clan-tag">#9PJRJRPC</span>
+                <span class="clan-trophies">🏆 3097</span>
+            </div>
+        </div>
+    </div>
+    <nav class="main-nav">
+        <a href="index.html" class="nav-link ">
+            <span class="nav-icon">🏠</span>
+            <span class="nav-text">Visão Geral</span>
+        </a>
+        <a href="audit.html" class="nav-link ">
+            <span class="nav-icon">📋</span>
+            <span class="nav-text">Auditoria</span>
+        </a>
+        <a href="war_history.html" class="nav-link ">
+            <span class="nav-icon">⚔️</span>
+            <span class="nav-text">Guerras</span>
+        </a>
+        <a href="members_stats.html" class="nav-link ">
+            <span class="nav-icon">👥</span>
+            <span class="nav-text">Membros</span>
+        </a>
+        <a href="ranking.html" class="nav-link ">
+            <span class="nav-icon">🏅</span>
+            <span class="nav-text">Ranking</span>
+        </a>
+    </nav>
+    <div class="update-info">
+        <span class="update-icon">🔄</span>
+        <span class="update-text">07/12/2025 04:07</span>
+    </div>
+</header>
+
+        <main class="dashboard-grid full-width">
+
+            <section class="card auditoria-summary">
+                <div class="audit-header">
+                    <div>
+                        <h2>Auditoria Diária</h2>
+                        <p style="color: var(--text-muted);">Analisando performance de: <strong>Domingo</strong>
+                            (Dia 4)</p>
+                        <div class="meta-tag">Meta do Dia: <strong>16 Decks</strong></div>
+                    </div>
+
+                    <div class="audit-stats-group">
+                        <div class="stat-box success">
+                            <span class="stat-number">0</span>
+                            <span class="stat-label">EM DIA</span>
+                        </div>
+                        <div class="stat-box warning">
+                            <span class="stat-number">0</span>
+                            <span class="stat-label">INCOMPLETO</span>
+                        </div>
+                        <div class="stat-box danger">
+                            <span class="stat-number">50</span>
+                            <span class="stat-label">ZERADO</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="card">
+                <div class="info-box">
+                    <h3>ℹ️ Como funciona a Auditoria?</h3>
+                    <hr>
+                    <p>O sistema verifica os decks usados de forma <strong>retrospectiva</strong> para garantir que
+                        todos jogaram no dia anterior ou no dia corrente.</p>
+                    <ul style="list-style: none; padding: 0; margin-top: 10px;">
+                        <li><strong style="color: var(--gold);">Quinta-feira:</strong> Audita Quinta (Meta: 4 Decks)
+                        </li>
+                        <li><strong style="color: var(--gold);">Sexta-feira:</strong> Audita Sexta (Meta: 8 Decks)</li>
+                        <li><strong style="color: var(--gold);">Sábado:</strong> Audita Sábado (Meta: 12 Decks)</li>
+                        <li><strong style="color: var(--gold);">Domingo:</strong> Audita Domingo (Meta: 16 Decks)</li>
+                    </ul>
+                </div>
+            </section>
+
+            <section class="card">
+                <div class="card-header">
+                    <h2>📋 Detalhamento por Jogador</h2>
+                </div>
+                <div class="table-responsive">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Jogador</th>
+                                <th>Cargo</th>
+                                <th>Decks Usados</th>
+                                <th>Faltam</th>
+                                <th>Status</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            
+                            <tr class="row-danger">
+                                <td>
+                                    <div class="member-name">
+                                        <strong>JOAOVITOR:D</strong>
+                                        <span class="member-tag">#Y8R9V2URG</span>
+                                    </div>
+                                </td>
+                                <td><span class="role-badge elder">elder</span></td>
+                                <td>
+                                    <div class="progress-bar-container">
+                                        <div class="progress-bar" style="width: 0.0%;">
+                                        </div>
+                                        <span class="progress-text">0 / 16</span>
+                                    </div>
+                                </td>
+                                <td>
+                                    
+                                    <span style="color: var(--accent-red); font-weight: bold;">-16</span>
+                                    
+                                </td>
+                                <td>
+                                    <span class="status-badge danger">Zerado</span>
+                                </td>
+                            </tr>
+                            
+                            <tr class="row-danger">
+                                <td>
+                                    <div class="member-name">
+                                        <strong>Guizx7</strong>
+                                        <span class="member-tag">#9GPRG9QPL</span>
+                                    </div>
+                                </td>
+                                <td><span class="role-badge elder">elder</span></td>
+                                <td>
+                                    <div class="progress-bar-container">
+                                        <div class="progress-bar" style="width: 0.0%;">
+                                        </div>
+                                        <span class="progress-text">0 / 16</span>
+                                    </div>
+                                </td>
+                                <td>
+                                    
+                                    <span style="color: var(--accent-red); font-weight: bold;">-16</span>
+                                    
+                                </td>
+                                <td>
+                                    <span class="status-badge danger">Zerado</span>
+                                </td>
+                            </tr>
+                            
+                            <tr class="row-danger">
+                                <td>
+                                    <div class="member-name">
+                                        <strong>PeitinDoGalego</strong>
+                                        <span class="member-tag">#J8JQ8LQUY</span>
+                                    </div>
+                                </td>
+                                <td><span class="role-badge member">member</span></td>
+                                <td>
+                                    <div class="progress-bar-container">
+                                        <div class="progress-bar" style="width: 0.0%;">
+                                        </div>
+                                        <span class="progress-text">0 / 16</span>
+                                    </div>
+                                </td>
+                                <td>
+                                    
+                                    <span style="color: var(--accent-red); font-weight: bold;">-16</span>
+                                    
+                                </td>
+                                <td>
+                                    <span class="status-badge danger">Zerado</span>
+                                </td>
+                            </tr>
+                            
+                            <tr class="row-danger">
+                                <td>
+                                    <div class="member-name">
+                                        <strong>Theus Carvalho</strong>
+                                        <span class="member-tag">#82QC0YL2C</span>
+                                    </div>
+                                </td>
+                                <td><span class="role-badge elder">elder</span></td>
+                                <td>
+                                    <div class="progress-bar-container">
+                                        <div class="progress-bar" style="width: 0.0%;">
+                                        </div>
+                                        <span class="progress-text">0 / 16</span>
+                                    </div>
+                                </td>
+                                <td>
+                                    
+                                    <span style="color: var(--accent-red); font-weight: bold;">-16</span>
+                                    
+                                </td>
+                                <td>
+                                    <span class="status-badge danger">Zerado</span>
+                                </td>
+                            </tr>
+                            
+                            <tr class="row-danger">
+                                <td>
+                                    <div class="member-name">
+                                        <strong>Vinícius</strong>
+                                        <span class="member-tag">#YPJUU2ULU</span>
+                                    </div>
+                                </td>
+                                <td><span class="role-badge elder">elder</span></td>
+                                <td>
+                                    <div class="progress-bar-container">
+                                        <div class="progress-bar" style="width: 0.0%;">
+                                        </div>
+                                        <span class="progress-text">0 / 16</span>
+                                    </div>
+                                </td>
+                                <td>
+                                    
+                                    <span style="color: var(--accent-red); font-weight: bold;">-16</span>
+                                    
+                                </td>
+                                <td>
+                                    <span class="status-badge danger">Zerado</span>
+                                </td>
+                            </tr>
+                            
+                            <tr class="row-danger">
+                                <td>
+                                    <div class="member-name">
+                                        <strong>PedrinhoR14</strong>
+                                        <span class="member-tag">#PJL0Q2J2</span>
+                                    </div>
+                                </td>
+                                <td><span class="role-badge member">member</span></td>
+                                <td>
+                                    <div class="progress-bar-container">
+                                        <div class="progress-bar" style="width: 0.0%;">
+                                        </div>
+                                        <span class="progress-text">0 / 16</span>
+                                    </div>
+                                </td>
+                                <td>
+                                    
+                                    <span style="color: var(--accent-red); font-weight: bold;">-16</span>
+                                    
+                                </td>
+                                <td>
+                                    <span class="status-badge danger">Zerado</span>
+                                </td>
+                            </tr>
+                            
+                            <tr class="row-danger">
+                                <td>
+                                    <div class="member-name">
+                                        <strong>RobaFrag</strong>
+                                        <span class="member-tag">#8U008PQU8</span>
+                                    </div>
+                                </td>
+                                <td><span class="role-badge coLeader">coLeader</span></td>
+                                <td>
+                                    <div class="progress-bar-container">
+                                        <div class="progress-bar" style="width: 0.0%;">
+                                        </div>
+                                        <span class="progress-text">0 / 16</span>
+                                    </div>
+                                </td>
+                                <td>
+                                    
+                                    <span style="color: var(--accent-red); font-weight: bold;">-16</span>
+                                    
+                                </td>
+                                <td>
+                                    <span class="status-badge danger">Zerado</span>
+                                </td>
+                            </tr>
+                            
+                            <tr class="row-danger">
+                                <td>
+                                    <div class="member-name">
+                                        <strong>Bruno</strong>
+                                        <span class="member-tag">#UPR022QUR</span>
+                                    </div>
+                                </td>
+                                <td><span class="role-badge elder">elder</span></td>
+                                <td>
+                                    <div class="progress-bar-container">
+                                        <div class="progress-bar" style="width: 0.0%;">
+                                        </div>
+                                        <span class="progress-text">0 / 16</span>
+                                    </div>
+                                </td>
+                                <td>
+                                    
+                                    <span style="color: var(--accent-red); font-weight: bold;">-16</span>
+                                    
+                                </td>
+                                <td>
+                                    <span class="status-badge danger">Zerado</span>
+                                </td>
+                            </tr>
+                            
+                            <tr class="row-danger">
+                                <td>
+                                    <div class="member-name">
+                                        <strong>Chetto</strong>
+                                        <span class="member-tag">#2LR0RR89Q</span>
+                                    </div>
+                                </td>
+                                <td><span class="role-badge elder">elder</span></td>
+                                <td>
+                                    <div class="progress-bar-container">
+                                        <div class="progress-bar" style="width: 0.0%;">
+                                        </div>
+                                        <span class="progress-text">0 / 16</span>
+                                    </div>
+                                </td>
+                                <td>
+                                    
+                                    <span style="color: var(--accent-red); font-weight: bold;">-16</span>
+                                    
+                                </td>
+                                <td>
+                                    <span class="status-badge danger">Zerado</span>
+                                </td>
+                            </tr>
+                            
+                            <tr class="row-danger">
+                                <td>
+                                    <div class="member-name">
+                                        <strong>joão3:16</strong>
+                                        <span class="member-tag">#U220VCULP</span>
+                                    </div>
+                                </td>
+                                <td><span class="role-badge coLeader">coLeader</span></td>
+                                <td>
+                                    <div class="progress-bar-container">
+                                        <div class="progress-bar" style="width: 0.0%;">
+                                        </div>
+                                        <span class="progress-text">0 / 16</span>
+                                    </div>
+                                </td>
+                                <td>
+                                    
+                                    <span style="color: var(--accent-red); font-weight: bold;">-16</span>
+                                    
+                                </td>
+                                <td>
+                                    <span class="status-badge danger">Zerado</span>
+                                </td>
+                            </tr>
+                            
+                            <tr class="row-danger">
+                                <td>
+                                    <div class="member-name">
+                                        <strong>mathi❄️</strong>
+                                        <span class="member-tag">#LLGUL2RUJ</span>
+                                    </div>
+                                </td>
+                                <td><span class="role-badge member">member</span></td>
+                                <td>
+                                    <div class="progress-bar-container">
+                                        <div class="progress-bar" style="width: 0.0%;">
+                                        </div>
+                                        <span class="progress-text">0 / 16</span>
+                                    </div>
+                                </td>
+                                <td>
+                                    
+                                    <span style="color: var(--accent-red); font-weight: bold;">-16</span>
+                                    
+                                </td>
+                                <td>
+                                    <span class="status-badge danger">Zerado</span>
+                                </td>
+                            </tr>
+                            
+                            <tr class="row-danger">
+                                <td>
+                                    <div class="member-name">
+                                        <strong>DavidSantana</strong>
+                                        <span class="member-tag">#9QG0U8YCQ</span>
+                                    </div>
+                                </td>
+                                <td><span class="role-badge elder">elder</span></td>
+                                <td>
+                                    <div class="progress-bar-container">
+                                        <div class="progress-bar" style="width: 0.0%;">
+                                        </div>
+                                        <span class="progress-text">0 / 16</span>
+                                    </div>
+                                </td>
+                                <td>
+                                    
+                                    <span style="color: var(--accent-red); font-weight: bold;">-16</span>
+                                    
+                                </td>
+                                <td>
+                                    <span class="status-badge danger">Zerado</span>
+                                </td>
+                            </tr>
+                            
+                            <tr class="row-danger">
+                                <td>
+                                    <div class="member-name">
+                                        <strong>MJK⚡️SPARKY</strong>
+                                        <span class="member-tag">#22CGYQ2UP</span>
+                                    </div>
+                                </td>
+                                <td><span class="role-badge elder">elder</span></td>
+                                <td>
+                                    <div class="progress-bar-container">
+                                        <div class="progress-bar" style="width: 0.0%;">
+                                        </div>
+                                        <span class="progress-text">0 / 16</span>
+                                    </div>
+                                </td>
+                                <td>
+                                    
+                                    <span style="color: var(--accent-red); font-weight: bold;">-16</span>
+                                    
+                                </td>
+                                <td>
+                                    <span class="status-badge danger">Zerado</span>
+                                </td>
+                            </tr>
+                            
+                            <tr class="row-danger">
+                                <td>
+                                    <div class="member-name">
+                                        <strong>antedeguemon</strong>
+                                        <span class="member-tag">#208JPG9R</span>
+                                    </div>
+                                </td>
+                                <td><span class="role-badge elder">elder</span></td>
+                                <td>
+                                    <div class="progress-bar-container">
+                                        <div class="progress-bar" style="width: 0.0%;">
+                                        </div>
+                                        <span class="progress-text">0 / 16</span>
+                                    </div>
+                                </td>
+                                <td>
+                                    
+                                    <span style="color: var(--accent-red); font-weight: bold;">-16</span>
+                                    
+                                </td>
+                                <td>
+                                    <span class="status-badge danger">Zerado</span>
+                                </td>
+                            </tr>
+                            
+                            <tr class="row-danger">
+                                <td>
+                                    <div class="member-name">
+                                        <strong>AUGUSTO</strong>
+                                        <span class="member-tag">#VLYU9Y2Y</span>
+                                    </div>
+                                </td>
+                                <td><span class="role-badge member">member</span></td>
+                                <td>
+                                    <div class="progress-bar-container">
+                                        <div class="progress-bar" style="width: 0.0%;">
+                                        </div>
+                                        <span class="progress-text">0 / 16</span>
+                                    </div>
+                                </td>
+                                <td>
+                                    
+                                    <span style="color: var(--accent-red); font-weight: bold;">-16</span>
+                                    
+                                </td>
+                                <td>
+                                    <span class="status-badge danger">Zerado</span>
+                                </td>
+                            </tr>
+                            
+                            <tr class="row-danger">
+                                <td>
+                                    <div class="member-name">
+                                        <strong>Dockz</strong>
+                                        <span class="member-tag">#YJUG9Y88</span>
+                                    </div>
+                                </td>
+                                <td><span class="role-badge elder">elder</span></td>
+                                <td>
+                                    <div class="progress-bar-container">
+                                        <div class="progress-bar" style="width: 0.0%;">
+                                        </div>
+                                        <span class="progress-text">0 / 16</span>
+                                    </div>
+                                </td>
+                                <td>
+                                    
+                                    <span style="color: var(--accent-red); font-weight: bold;">-16</span>
+                                    
+                                </td>
+                                <td>
+                                    <span class="status-badge danger">Zerado</span>
+                                </td>
+                            </tr>
+                            
+                            <tr class="row-danger">
+                                <td>
+                                    <div class="member-name">
+                                        <strong>51 é pinga</strong>
+                                        <span class="member-tag">#UJRLJY0L2</span>
+                                    </div>
+                                </td>
+                                <td><span class="role-badge coLeader">coLeader</span></td>
+                                <td>
+                                    <div class="progress-bar-container">
+                                        <div class="progress-bar" style="width: 0.0%;">
+                                        </div>
+                                        <span class="progress-text">0 / 16</span>
+                                    </div>
+                                </td>
+                                <td>
+                                    
+                                    <span style="color: var(--accent-red); font-weight: bold;">-16</span>
+                                    
+                                </td>
+                                <td>
+                                    <span class="status-badge danger">Zerado</span>
+                                </td>
+                            </tr>
+                            
+                            <tr class="row-danger">
+                                <td>
+                                    <div class="member-name">
+                                        <strong>ZackThunder</strong>
+                                        <span class="member-tag">#R9UP0QLR9</span>
+                                    </div>
+                                </td>
+                                <td><span class="role-badge elder">elder</span></td>
+                                <td>
+                                    <div class="progress-bar-container">
+                                        <div class="progress-bar" style="width: 0.0%;">
+                                        </div>
+                                        <span class="progress-text">0 / 16</span>
+                                    </div>
+                                </td>
+                                <td>
+                                    
+                                    <span style="color: var(--accent-red); font-weight: bold;">-16</span>
+                                    
+                                </td>
+                                <td>
+                                    <span class="status-badge danger">Zerado</span>
+                                </td>
+                            </tr>
+                            
+                            <tr class="row-danger">
+                                <td>
+                                    <div class="member-name">
+                                        <strong>tavin</strong>
+                                        <span class="member-tag">#U8VP8L8L0</span>
+                                    </div>
+                                </td>
+                                <td><span class="role-badge elder">elder</span></td>
+                                <td>
+                                    <div class="progress-bar-container">
+                                        <div class="progress-bar" style="width: 0.0%;">
+                                        </div>
+                                        <span class="progress-text">0 / 16</span>
+                                    </div>
+                                </td>
+                                <td>
+                                    
+                                    <span style="color: var(--accent-red); font-weight: bold;">-16</span>
+                                    
+                                </td>
+                                <td>
+                                    <span class="status-badge danger">Zerado</span>
+                                </td>
+                            </tr>
+                            
+                            <tr class="row-danger">
+                                <td>
+                                    <div class="member-name">
+                                        <strong>ArthurNoSkill●</strong>
+                                        <span class="member-tag">#9PLVLLVR2</span>
+                                    </div>
+                                </td>
+                                <td><span class="role-badge member">member</span></td>
+                                <td>
+                                    <div class="progress-bar-container">
+                                        <div class="progress-bar" style="width: 0.0%;">
+                                        </div>
+                                        <span class="progress-text">0 / 16</span>
+                                    </div>
+                                </td>
+                                <td>
+                                    
+                                    <span style="color: var(--accent-red); font-weight: bold;">-16</span>
+                                    
+                                </td>
+                                <td>
+                                    <span class="status-badge danger">Zerado</span>
+                                </td>
+                            </tr>
+                            
+                            <tr class="row-danger">
+                                <td>
+                                    <div class="member-name">
+                                        <strong>EDDIE</strong>
+                                        <span class="member-tag">#2VLR9U90</span>
+                                    </div>
+                                </td>
+                                <td><span class="role-badge coLeader">coLeader</span></td>
+                                <td>
+                                    <div class="progress-bar-container">
+                                        <div class="progress-bar" style="width: 0.0%;">
+                                        </div>
+                                        <span class="progress-text">0 / 16</span>
+                                    </div>
+                                </td>
+                                <td>
+                                    
+                                    <span style="color: var(--accent-red); font-weight: bold;">-16</span>
+                                    
+                                </td>
+                                <td>
+                                    <span class="status-badge danger">Zerado</span>
+                                </td>
+                            </tr>
+                            
+                            <tr class="row-danger">
+                                <td>
+                                    <div class="member-name">
+                                        <strong>Zenitsu愛</strong>
+                                        <span class="member-tag">#8C8RY8GL9</span>
+                                    </div>
+                                </td>
+                                <td><span class="role-badge coLeader">coLeader</span></td>
+                                <td>
+                                    <div class="progress-bar-container">
+                                        <div class="progress-bar" style="width: 0.0%;">
+                                        </div>
+                                        <span class="progress-text">0 / 16</span>
+                                    </div>
+                                </td>
+                                <td>
+                                    
+                                    <span style="color: var(--accent-red); font-weight: bold;">-16</span>
+                                    
+                                </td>
+                                <td>
+                                    <span class="status-badge danger">Zerado</span>
+                                </td>
+                            </tr>
+                            
+                            <tr class="row-danger">
+                                <td>
+                                    <div class="member-name">
+                                        <strong>gabiggoughost</strong>
+                                        <span class="member-tag">#V9PCU0LCV</span>
+                                    </div>
+                                </td>
+                                <td><span class="role-badge coLeader">coLeader</span></td>
+                                <td>
+                                    <div class="progress-bar-container">
+                                        <div class="progress-bar" style="width: 0.0%;">
+                                        </div>
+                                        <span class="progress-text">0 / 16</span>
+                                    </div>
+                                </td>
+                                <td>
+                                    
+                                    <span style="color: var(--accent-red); font-weight: bold;">-16</span>
+                                    
+                                </td>
+                                <td>
+                                    <span class="status-badge danger">Zerado</span>
+                                </td>
+                            </tr>
+                            
+                            <tr class="row-danger">
+                                <td>
+                                    <div class="member-name">
+                                        <strong>Reus</strong>
+                                        <span class="member-tag">#R29QRVQGU</span>
+                                    </div>
+                                </td>
+                                <td><span class="role-badge member">member</span></td>
+                                <td>
+                                    <div class="progress-bar-container">
+                                        <div class="progress-bar" style="width: 0.0%;">
+                                        </div>
+                                        <span class="progress-text">0 / 16</span>
+                                    </div>
+                                </td>
+                                <td>
+                                    
+                                    <span style="color: var(--accent-red); font-weight: bold;">-16</span>
+                                    
+                                </td>
+                                <td>
+                                    <span class="status-badge danger">Zerado</span>
+                                </td>
+                            </tr>
+                            
+                            <tr class="row-danger">
+                                <td>
+                                    <div class="member-name">
+                                        <strong>Mila</strong>
+                                        <span class="member-tag">#90U8CVP90</span>
+                                    </div>
+                                </td>
+                                <td><span class="role-badge coLeader">coLeader</span></td>
+                                <td>
+                                    <div class="progress-bar-container">
+                                        <div class="progress-bar" style="width: 0.0%;">
+                                        </div>
+                                        <span class="progress-text">0 / 16</span>
+                                    </div>
+                                </td>
+                                <td>
+                                    
+                                    <span style="color: var(--accent-red); font-weight: bold;">-16</span>
+                                    
+                                </td>
+                                <td>
+                                    <span class="status-badge danger">Zerado</span>
+                                </td>
+                            </tr>
+                            
+                            <tr class="row-danger">
+                                <td>
+                                    <div class="member-name">
+                                        <strong>Sotto ツ</strong>
+                                        <span class="member-tag">#2P299V0CU</span>
+                                    </div>
+                                </td>
+                                <td><span class="role-badge member">member</span></td>
+                                <td>
+                                    <div class="progress-bar-container">
+                                        <div class="progress-bar" style="width: 0.0%;">
+                                        </div>
+                                        <span class="progress-text">0 / 16</span>
+                                    </div>
+                                </td>
+                                <td>
+                                    
+                                    <span style="color: var(--accent-red); font-weight: bold;">-16</span>
+                                    
+                                </td>
+                                <td>
+                                    <span class="status-badge danger">Zerado</span>
+                                </td>
+                            </tr>
+                            
+                            <tr class="row-danger">
+                                <td>
+                                    <div class="member-name">
+                                        <strong>MegaJoaoReal</strong>
+                                        <span class="member-tag">#RUQ90VLVP</span>
+                                    </div>
+                                </td>
+                                <td><span class="role-badge member">member</span></td>
+                                <td>
+                                    <div class="progress-bar-container">
+                                        <div class="progress-bar" style="width: 0.0%;">
+                                        </div>
+                                        <span class="progress-text">0 / 16</span>
+                                    </div>
+                                </td>
+                                <td>
+                                    
+                                    <span style="color: var(--accent-red); font-weight: bold;">-16</span>
+                                    
+                                </td>
+                                <td>
+                                    <span class="status-badge danger">Zerado</span>
+                                </td>
+                            </tr>
+                            
+                            <tr class="row-danger">
+                                <td>
+                                    <div class="member-name">
+                                        <strong>Daniele❤</strong>
+                                        <span class="member-tag">#8R2LRC80Q</span>
+                                    </div>
+                                </td>
+                                <td><span class="role-badge elder">elder</span></td>
+                                <td>
+                                    <div class="progress-bar-container">
+                                        <div class="progress-bar" style="width: 0.0%;">
+                                        </div>
+                                        <span class="progress-text">0 / 16</span>
+                                    </div>
+                                </td>
+                                <td>
+                                    
+                                    <span style="color: var(--accent-red); font-weight: bold;">-16</span>
+                                    
+                                </td>
+                                <td>
+                                    <span class="status-badge danger">Zerado</span>
+                                </td>
+                            </tr>
+                            
+                            <tr class="row-danger">
+                                <td>
+                                    <div class="member-name">
+                                        <strong>luba</strong>
+                                        <span class="member-tag">#PQV9QQRQ0</span>
+                                    </div>
+                                </td>
+                                <td><span class="role-badge coLeader">coLeader</span></td>
+                                <td>
+                                    <div class="progress-bar-container">
+                                        <div class="progress-bar" style="width: 0.0%;">
+                                        </div>
+                                        <span class="progress-text">0 / 16</span>
+                                    </div>
+                                </td>
+                                <td>
+                                    
+                                    <span style="color: var(--accent-red); font-weight: bold;">-16</span>
+                                    
+                                </td>
+                                <td>
+                                    <span class="status-badge danger">Zerado</span>
+                                </td>
+                            </tr>
+                            
+                            <tr class="row-danger">
+                                <td>
+                                    <div class="member-name">
+                                        <strong>andrebts</strong>
+                                        <span class="member-tag">#VUQ0PV8PV</span>
+                                    </div>
+                                </td>
+                                <td><span class="role-badge coLeader">coLeader</span></td>
+                                <td>
+                                    <div class="progress-bar-container">
+                                        <div class="progress-bar" style="width: 0.0%;">
+                                        </div>
+                                        <span class="progress-text">0 / 16</span>
+                                    </div>
+                                </td>
+                                <td>
+                                    
+                                    <span style="color: var(--accent-red); font-weight: bold;">-16</span>
+                                    
+                                </td>
+                                <td>
+                                    <span class="status-badge danger">Zerado</span>
+                                </td>
+                            </tr>
+                            
+                            <tr class="row-danger">
+                                <td>
+                                    <div class="member-name">
+                                        <strong>super</strong>
+                                        <span class="member-tag">#UU0RCRLQU</span>
+                                    </div>
+                                </td>
+                                <td><span class="role-badge elder">elder</span></td>
+                                <td>
+                                    <div class="progress-bar-container">
+                                        <div class="progress-bar" style="width: 0.0%;">
+                                        </div>
+                                        <span class="progress-text">0 / 16</span>
+                                    </div>
+                                </td>
+                                <td>
+                                    
+                                    <span style="color: var(--accent-red); font-weight: bold;">-16</span>
+                                    
+                                </td>
+                                <td>
+                                    <span class="status-badge danger">Zerado</span>
+                                </td>
+                            </tr>
+                            
+                            <tr class="row-danger">
+                                <td>
+                                    <div class="member-name">
+                                        <strong>Sasuke</strong>
+                                        <span class="member-tag">#Q8098VGG</span>
+                                    </div>
+                                </td>
+                                <td><span class="role-badge elder">elder</span></td>
+                                <td>
+                                    <div class="progress-bar-container">
+                                        <div class="progress-bar" style="width: 0.0%;">
+                                        </div>
+                                        <span class="progress-text">0 / 16</span>
+                                    </div>
+                                </td>
+                                <td>
+                                    
+                                    <span style="color: var(--accent-red); font-weight: bold;">-16</span>
+                                    
+                                </td>
+                                <td>
+                                    <span class="status-badge danger">Zerado</span>
+                                </td>
+                            </tr>
+                            
+                            <tr class="row-danger">
+                                <td>
+                                    <div class="member-name">
+                                        <strong>carlos Daniel</strong>
+                                        <span class="member-tag">#8CVU0PP00</span>
+                                    </div>
+                                </td>
+                                <td><span class="role-badge elder">elder</span></td>
+                                <td>
+                                    <div class="progress-bar-container">
+                                        <div class="progress-bar" style="width: 0.0%;">
+                                        </div>
+                                        <span class="progress-text">0 / 16</span>
+                                    </div>
+                                </td>
+                                <td>
+                                    
+                                    <span style="color: var(--accent-red); font-weight: bold;">-16</span>
+                                    
+                                </td>
+                                <td>
+                                    <span class="status-badge danger">Zerado</span>
+                                </td>
+                            </tr>
+                            
+                            <tr class="row-danger">
+                                <td>
+                                    <div class="member-name">
+                                        <strong>Gustavo Clash</strong>
+                                        <span class="member-tag">#28PQJJU2G</span>
+                                    </div>
+                                </td>
+                                <td><span class="role-badge coLeader">coLeader</span></td>
+                                <td>
+                                    <div class="progress-bar-container">
+                                        <div class="progress-bar" style="width: 0.0%;">
+                                        </div>
+                                        <span class="progress-text">0 / 16</span>
+                                    </div>
+                                </td>
+                                <td>
+                                    
+                                    <span style="color: var(--accent-red); font-weight: bold;">-16</span>
+                                    
+                                </td>
+                                <td>
+                                    <span class="status-badge danger">Zerado</span>
+                                </td>
+                            </tr>
+                            
+                            <tr class="row-danger">
+                                <td>
+                                    <div class="member-name">
+                                        <strong>domador de but</strong>
+                                        <span class="member-tag">#GRY890GY2</span>
+                                    </div>
+                                </td>
+                                <td><span class="role-badge coLeader">coLeader</span></td>
+                                <td>
+                                    <div class="progress-bar-container">
+                                        <div class="progress-bar" style="width: 0.0%;">
+                                        </div>
+                                        <span class="progress-text">0 / 16</span>
+                                    </div>
+                                </td>
+                                <td>
+                                    
+                                    <span style="color: var(--accent-red); font-weight: bold;">-16</span>
+                                    
+                                </td>
+                                <td>
+                                    <span class="status-badge danger">Zerado</span>
+                                </td>
+                            </tr>
+                            
+                            <tr class="row-danger">
+                                <td>
+                                    <div class="member-name">
+                                        <strong>O GUARDIÃO</strong>
+                                        <span class="member-tag">#UJRQ2L09</span>
+                                    </div>
+                                </td>
+                                <td><span class="role-badge leader">leader</span></td>
+                                <td>
+                                    <div class="progress-bar-container">
+                                        <div class="progress-bar" style="width: 0.0%;">
+                                        </div>
+                                        <span class="progress-text">0 / 16</span>
+                                    </div>
+                                </td>
+                                <td>
+                                    
+                                    <span style="color: var(--accent-red); font-weight: bold;">-16</span>
+                                    
+                                </td>
+                                <td>
+                                    <span class="status-badge danger">Zerado</span>
+                                </td>
+                            </tr>
+                            
+                            <tr class="row-danger">
+                                <td>
+                                    <div class="member-name">
+                                        <strong>Rodolfos</strong>
+                                        <span class="member-tag">#200JYCVYGY</span>
+                                    </div>
+                                </td>
+                                <td><span class="role-badge coLeader">coLeader</span></td>
+                                <td>
+                                    <div class="progress-bar-container">
+                                        <div class="progress-bar" style="width: 0.0%;">
+                                        </div>
+                                        <span class="progress-text">0 / 16</span>
+                                    </div>
+                                </td>
+                                <td>
+                                    
+                                    <span style="color: var(--accent-red); font-weight: bold;">-16</span>
+                                    
+                                </td>
+                                <td>
+                                    <span class="status-badge danger">Zerado</span>
+                                </td>
+                            </tr>
+                            
+                            <tr class="row-danger">
+                                <td>
+                                    <div class="member-name">
+                                        <strong>Luciano</strong>
+                                        <span class="member-tag">#LVGCLQQ8L</span>
+                                    </div>
+                                </td>
+                                <td><span class="role-badge elder">elder</span></td>
+                                <td>
+                                    <div class="progress-bar-container">
+                                        <div class="progress-bar" style="width: 0.0%;">
+                                        </div>
+                                        <span class="progress-text">0 / 16</span>
+                                    </div>
+                                </td>
+                                <td>
+                                    
+                                    <span style="color: var(--accent-red); font-weight: bold;">-16</span>
+                                    
+                                </td>
+                                <td>
+                                    <span class="status-badge danger">Zerado</span>
+                                </td>
+                            </tr>
+                            
+                            <tr class="row-danger">
+                                <td>
+                                    <div class="member-name">
+                                        <strong>yNoobZy</strong>
+                                        <span class="member-tag">#C9PY8URJQ</span>
+                                    </div>
+                                </td>
+                                <td><span class="role-badge elder">elder</span></td>
+                                <td>
+                                    <div class="progress-bar-container">
+                                        <div class="progress-bar" style="width: 0.0%;">
+                                        </div>
+                                        <span class="progress-text">0 / 16</span>
+                                    </div>
+                                </td>
+                                <td>
+                                    
+                                    <span style="color: var(--accent-red); font-weight: bold;">-16</span>
+                                    
+                                </td>
+                                <td>
+                                    <span class="status-badge danger">Zerado</span>
+                                </td>
+                            </tr>
+                            
+                            <tr class="row-danger">
+                                <td>
+                                    <div class="member-name">
+                                        <strong>Alvaro</strong>
+                                        <span class="member-tag">#8JULVVL0J</span>
+                                    </div>
+                                </td>
+                                <td><span class="role-badge coLeader">coLeader</span></td>
+                                <td>
+                                    <div class="progress-bar-container">
+                                        <div class="progress-bar" style="width: 0.0%;">
+                                        </div>
+                                        <span class="progress-text">0 / 16</span>
+                                    </div>
+                                </td>
+                                <td>
+                                    
+                                    <span style="color: var(--accent-red); font-weight: bold;">-16</span>
+                                    
+                                </td>
+                                <td>
+                                    <span class="status-badge danger">Zerado</span>
+                                </td>
+                            </tr>
+                            
+                            <tr class="row-danger">
+                                <td>
+                                    <div class="member-name">
+                                        <strong>NEGUIM244</strong>
+                                        <span class="member-tag">#PYVJVURP0</span>
+                                    </div>
+                                </td>
+                                <td><span class="role-badge member">member</span></td>
+                                <td>
+                                    <div class="progress-bar-container">
+                                        <div class="progress-bar" style="width: 0.0%;">
+                                        </div>
+                                        <span class="progress-text">0 / 16</span>
+                                    </div>
+                                </td>
+                                <td>
+                                    
+                                    <span style="color: var(--accent-red); font-weight: bold;">-16</span>
+                                    
+                                </td>
+                                <td>
+                                    <span class="status-badge danger">Zerado</span>
+                                </td>
+                            </tr>
+                            
+                            <tr class="row-danger">
+                                <td>
+                                    <div class="member-name">
+                                        <strong>petrus</strong>
+                                        <span class="member-tag">#88U9PLGVV</span>
+                                    </div>
+                                </td>
+                                <td><span class="role-badge member">member</span></td>
+                                <td>
+                                    <div class="progress-bar-container">
+                                        <div class="progress-bar" style="width: 0.0%;">
+                                        </div>
+                                        <span class="progress-text">0 / 16</span>
+                                    </div>
+                                </td>
+                                <td>
+                                    
+                                    <span style="color: var(--accent-red); font-weight: bold;">-16</span>
+                                    
+                                </td>
+                                <td>
+                                    <span class="status-badge danger">Zerado</span>
+                                </td>
+                            </tr>
+                            
+                            <tr class="row-danger">
+                                <td>
+                                    <div class="member-name">
+                                        <strong>polaris</strong>
+                                        <span class="member-tag">#PCPCJU20Y</span>
+                                    </div>
+                                </td>
+                                <td><span class="role-badge elder">elder</span></td>
+                                <td>
+                                    <div class="progress-bar-container">
+                                        <div class="progress-bar" style="width: 0.0%;">
+                                        </div>
+                                        <span class="progress-text">0 / 16</span>
+                                    </div>
+                                </td>
+                                <td>
+                                    
+                                    <span style="color: var(--accent-red); font-weight: bold;">-16</span>
+                                    
+                                </td>
+                                <td>
+                                    <span class="status-badge danger">Zerado</span>
+                                </td>
+                            </tr>
+                            
+                            <tr class="row-danger">
+                                <td>
+                                    <div class="member-name">
+                                        <strong>isp</strong>
+                                        <span class="member-tag">#C8C20C0JQ</span>
+                                    </div>
+                                </td>
+                                <td><span class="role-badge elder">elder</span></td>
+                                <td>
+                                    <div class="progress-bar-container">
+                                        <div class="progress-bar" style="width: 0.0%;">
+                                        </div>
+                                        <span class="progress-text">0 / 16</span>
+                                    </div>
+                                </td>
+                                <td>
+                                    
+                                    <span style="color: var(--accent-red); font-weight: bold;">-16</span>
+                                    
+                                </td>
+                                <td>
+                                    <span class="status-badge danger">Zerado</span>
+                                </td>
+                            </tr>
+                            
+                            <tr class="row-danger">
+                                <td>
+                                    <div class="member-name">
+                                        <strong>luisinn7</strong>
+                                        <span class="member-tag">#9PCQY89PV</span>
+                                    </div>
+                                </td>
+                                <td><span class="role-badge coLeader">coLeader</span></td>
+                                <td>
+                                    <div class="progress-bar-container">
+                                        <div class="progress-bar" style="width: 0.0%;">
+                                        </div>
+                                        <span class="progress-text">0 / 16</span>
+                                    </div>
+                                </td>
+                                <td>
+                                    
+                                    <span style="color: var(--accent-red); font-weight: bold;">-16</span>
+                                    
+                                </td>
+                                <td>
+                                    <span class="status-badge danger">Zerado</span>
+                                </td>
+                            </tr>
+                            
+                            <tr class="row-danger">
+                                <td>
+                                    <div class="member-name">
+                                        <strong>OneDePrata</strong>
+                                        <span class="member-tag">#LYL9CU0P0</span>
+                                    </div>
+                                </td>
+                                <td><span class="role-badge coLeader">coLeader</span></td>
+                                <td>
+                                    <div class="progress-bar-container">
+                                        <div class="progress-bar" style="width: 0.0%;">
+                                        </div>
+                                        <span class="progress-text">0 / 16</span>
+                                    </div>
+                                </td>
+                                <td>
+                                    
+                                    <span style="color: var(--accent-red); font-weight: bold;">-16</span>
+                                    
+                                </td>
+                                <td>
+                                    <span class="status-badge danger">Zerado</span>
+                                </td>
+                            </tr>
+                            
+                            <tr class="row-danger">
+                                <td>
+                                    <div class="member-name">
+                                        <strong>santsx777</strong>
+                                        <span class="member-tag">#C8G9JJL89</span>
+                                    </div>
+                                </td>
+                                <td><span class="role-badge elder">elder</span></td>
+                                <td>
+                                    <div class="progress-bar-container">
+                                        <div class="progress-bar" style="width: 0.0%;">
+                                        </div>
+                                        <span class="progress-text">0 / 16</span>
+                                    </div>
+                                </td>
+                                <td>
+                                    
+                                    <span style="color: var(--accent-red); font-weight: bold;">-16</span>
+                                    
+                                </td>
+                                <td>
+                                    <span class="status-badge danger">Zerado</span>
+                                </td>
+                            </tr>
+                            
+                            <tr class="row-danger">
+                                <td>
+                                    <div class="member-name">
+                                        <strong>H A R D's</strong>
+                                        <span class="member-tag">#PVJULCYQQ</span>
+                                    </div>
+                                </td>
+                                <td><span class="role-badge elder">elder</span></td>
+                                <td>
+                                    <div class="progress-bar-container">
+                                        <div class="progress-bar" style="width: 0.0%;">
+                                        </div>
+                                        <span class="progress-text">0 / 16</span>
+                                    </div>
+                                </td>
+                                <td>
+                                    
+                                    <span style="color: var(--accent-red); font-weight: bold;">-16</span>
+                                    
+                                </td>
+                                <td>
+                                    <span class="status-badge danger">Zerado</span>
+                                </td>
+                            </tr>
+                            
+                            <tr class="row-danger">
+                                <td>
+                                    <div class="member-name">
+                                        <strong>⭐O SENTINELA ⭐</strong>
+                                        <span class="member-tag">#99PJ9QQPC</span>
+                                    </div>
+                                </td>
+                                <td><span class="role-badge coLeader">coLeader</span></td>
+                                <td>
+                                    <div class="progress-bar-container">
+                                        <div class="progress-bar" style="width: 0.0%;">
+                                        </div>
+                                        <span class="progress-text">0 / 16</span>
+                                    </div>
+                                </td>
+                                <td>
+                                    
+                                    <span style="color: var(--accent-red); font-weight: bold;">-16</span>
+                                    
+                                </td>
+                                <td>
+                                    <span class="status-badge danger">Zerado</span>
+                                </td>
+                            </tr>
+                            
+                            <tr class="row-danger">
+                                <td>
+                                    <div class="member-name">
+                                        <strong>DGJ-DAVI</strong>
+                                        <span class="member-tag">#9RPCC2VCG</span>
+                                    </div>
+                                </td>
+                                <td><span class="role-badge elder">elder</span></td>
+                                <td>
+                                    <div class="progress-bar-container">
+                                        <div class="progress-bar" style="width: 0.0%;">
+                                        </div>
+                                        <span class="progress-text">0 / 16</span>
+                                    </div>
+                                </td>
+                                <td>
+                                    
+                                    <span style="color: var(--accent-red); font-weight: bold;">-16</span>
+                                    
+                                </td>
+                                <td>
+                                    <span class="status-badge danger">Zerado</span>
+                                </td>
+                            </tr>
+                            
+                        </tbody>
+                    </table>
+                </div>
+            </section>
+        </main>
+    </div>
+</body>
+
+</html>

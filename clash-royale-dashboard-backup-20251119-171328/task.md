@@ -1,0 +1,24 @@
+# Tarefas - Dashboard Clash Royale (Python + Static HTML)
+
+- [x] Configurar ambiente Python e dependências (`requests`, `jinja2`) <!-- id: 0 -->
+- [x] Criar script Python para buscar dados da API do Clash Royale <!-- id: 1 -->
+- [x] Criar template HTML (Jinja2) com Design System moderno <!-- id: 2 -->
+- [x] Implementar lógica de geração do `index.html` com dados reais <!-- id: 3 -->
+- [x] Estilizar Dashboard (CSS) - Tema Clash Royale <!-- id: 4 -->
+- [x] Validar fluxo: Rodar Script -> Gerar HTML -> Verificar Visual <!-- id: 5 -->
+- [ ] Criar template `war_history.html` com tabela dinâmica <!-- id: 6 -->
+- [ ] Atualizar `main.py` para processar dados de histórico de guerra e gerar nova página <!-- id: 7 -->
+- [ ] Implementar lógica de classificação de membros (Campeão, Atenção, Perigo) <!-- id: 8 -->
+- [ ] Adicionar navegação (Links) entre Home e Histórico <!-- id: 9 -->
+- [x] Adicionar JavaScript para ordenação da tabela <!-- id: 10 -->
+- [x] Implementar sistema de cache local (salvar JSONs) <!-- id: 11 -->
+- [x] Refatorar `main.py` para priorizar dados locais e atualizar apenas se possível <!-- id: 12 -->
+- [x] Garantir funcionamento offline (sem API Key) usando cache <!-- id: 13 -->
+- [x] Corrigir filtro: exibir apenas jogadores ativos (memberList) <!-- id: 14 -->
+- [x] Adicionar exportação para PDF <!-- id: 15 -->
+- [x] Criar página de Estatísticas de Membros <!-- id: 16 -->
+- [ ] Criar página de Análise de Desempenho <!-- id: 17 -->
+- [x] Adicionar legendas e tooltips informativos <!-- id: 18 -->
+- [x] Implementar sistema de ligas com progresso <!-- id: 19 -->
+- [x] Adicionar gr áfico de tendência de guerra (Chart.js) <!-- id: 20 -->
+- [x] Adicionar gráfico top 10 no ranking <!-- id: 21 -->

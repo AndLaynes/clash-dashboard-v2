@@ -1,0 +1,1334 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Histórico de Guerra - OS GUARDIÕES</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="static/style.css">
+</head>
+
+<body>
+    <div class="app-container">
+        
+        <!-- Header Unificado - Inclua em todos os templates -->
+<header class="main-header">
+    <div class="header-bg-pattern"></div>
+    <div class="logo-area">
+        <img src="https://cdn-icons-png.flaticon.com/512/1165/1165305.png" alt="Clash Royale Logo"
+            class="cr-logo pulse">
+        <div class="clan-info">
+            <h1 class="clan-name">OS GUARDIÕES</h1>
+            <div class="clan-meta">
+                <span class="clan-tag">#9PJRJRPC</span>
+                <span class="clan-trophies">🏆 3097</span>
+            </div>
+        </div>
+    </div>
+    <nav class="main-nav">
+        <a href="index.html" class="nav-link ">
+            <span class="nav-icon">🏠</span>
+            <span class="nav-text">Visão Geral</span>
+        </a>
+        <a href="audit.html" class="nav-link ">
+            <span class="nav-icon">📋</span>
+            <span class="nav-text">Auditoria</span>
+        </a>
+        <a href="war_history.html" class="nav-link active">
+            <span class="nav-icon">⚔️</span>
+            <span class="nav-text">Guerras</span>
+        </a>
+        <a href="members_stats.html" class="nav-link ">
+            <span class="nav-icon">👥</span>
+            <span class="nav-text">Membros</span>
+        </a>
+        <a href="ranking.html" class="nav-link ">
+            <span class="nav-icon">🏅</span>
+            <span class="nav-text">Ranking</span>
+        </a>
+    </nav>
+    <div class="update-info">
+        <span class="update-icon">🔄</span>
+        <span class="update-text">07/12/2025 04:07</span>
+    </div>
+</header>
+
+        <main class="dashboard-grid">
+            <!-- Card de Liga -->
+            <section class="league-section">
+                <div class="card league-card">
+                    <div class="league-icon">🏆</div>
+                    <div class="league-info">
+                        <h3>Legendary</h3>
+                        <p class="league-subtitle">Liga Atual</p>
+                        <p class="league-next-info">
+                            
+                            ⭐ Você está na liga máxima!
+                            
+                        </p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Histórico de Guerras -->
+            <section class="card">
+                <div class="card-header">
+                    <h2>⚔️ Última Guerra</h2>
+                    <span class="war-date">Temporada 126 - Seção 1</span>
+                </div>
+
+                <div class="table-responsive">
+                    <table id="warTable">
+                        <thead>
+                            <tr>
+                                <th onclick="sortTable(0)" class="sortable" title="Posição no ranking"># ↕</th>
+                                <th onclick="sortTable(1)" class="sortable" title="Status baseado nos decks usados">
+                                    Status ↕</th>
+                                <th onclick="sortTable(2)" class="sortable" title="Nome do jogador">Jogador ↕</th>
+                                <th onclick="sortTable(3)" class="sortable"
+                                    title="Número de decks usados na guerra (máx 16)">Decks Usados ↕</th>
+                                <th onclick="sortTable(4)" class="sortable" title="Pontos de fama conquistados">Fama ↕
+                                </th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            
+                            <tr class="status-champion">
+                                <td>1</td>
+                                <td>
+                                    <span class="badge champion">
+                                        Campeão
+                                    </span>
+                                </td>
+                                <td>
+                                    <div class="member-name">
+                                        <strong>Gustavo Clash</strong>
+                                        <span class="member-tag">#28PQJJU2G</span>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="decks-progress">
+                                        <span class="decks-count">16/16</span>
+                                        <div class="progress-bar">
+                                            <div class="fill champion"
+                                                style="width: 100.0%"></div>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td>2850</td>
+                            </tr>
+                            
+                            <tr class="status-champion">
+                                <td>2</td>
+                                <td>
+                                    <span class="badge champion">
+                                        Campeão
+                                    </span>
+                                </td>
+                                <td>
+                                    <div class="member-name">
+                                        <strong>Mila</strong>
+                                        <span class="member-tag">#90U8CVP90</span>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="decks-progress">
+                                        <span class="decks-count">16/16</span>
+                                        <div class="progress-bar">
+                                            <div class="fill champion"
+                                                style="width: 100.0%"></div>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td>2800</td>
+                            </tr>
+                            
+                            <tr class="status-champion">
+                                <td>3</td>
+                                <td>
+                                    <span class="badge champion">
+                                        Campeão
+                                    </span>
+                                </td>
+                                <td>
+                                    <div class="member-name">
+                                        <strong>andrebts</strong>
+                                        <span class="member-tag">#VUQ0PV8PV</span>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="decks-progress">
+                                        <span class="decks-count">16/16</span>
+                                        <div class="progress-bar">
+                                            <div class="fill champion"
+                                                style="width: 100.0%"></div>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td>2700</td>
+                            </tr>
+                            
+                            <tr class="status-champion">
+                                <td>4</td>
+                                <td>
+                                    <span class="badge champion">
+                                        Campeão
+                                    </span>
+                                </td>
+                                <td>
+                                    <div class="member-name">
+                                        <strong>DavidSantana</strong>
+                                        <span class="member-tag">#9QG0U8YCQ</span>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="decks-progress">
+                                        <span class="decks-count">16/16</span>
+                                        <div class="progress-bar">
+                                            <div class="fill champion"
+                                                style="width: 100.0%"></div>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td>2700</td>
+                            </tr>
+                            
+                            <tr class="status-champion">
+                                <td>5</td>
+                                <td>
+                                    <span class="badge champion">
+                                        Campeão
+                                    </span>
+                                </td>
+                                <td>
+                                    <div class="member-name">
+                                        <strong>DGJ-DAVI</strong>
+                                        <span class="member-tag">#9RPCC2VCG</span>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="decks-progress">
+                                        <span class="decks-count">16/16</span>
+                                        <div class="progress-bar">
+                                            <div class="fill champion"
+                                                style="width: 100.0%"></div>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td>2600</td>
+                            </tr>
+                            
+                            <tr class="status-champion">
+                                <td>6</td>
+                                <td>
+                                    <span class="badge champion">
+                                        Campeão
+                                    </span>
+                                </td>
+                                <td>
+                                    <div class="member-name">
+                                        <strong>Bruno</strong>
+                                        <span class="member-tag">#UPR022QUR</span>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="decks-progress">
+                                        <span class="decks-count">16/16</span>
+                                        <div class="progress-bar">
+                                            <div class="fill champion"
+                                                style="width: 100.0%"></div>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td>2450</td>
+                            </tr>
+                            
+                            <tr class="status-champion">
+                                <td>7</td>
+                                <td>
+                                    <span class="badge champion">
+                                        Campeão
+                                    </span>
+                                </td>
+                                <td>
+                                    <div class="member-name">
+                                        <strong>Vinícius</strong>
+                                        <span class="member-tag">#YPJUU2ULU</span>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="decks-progress">
+                                        <span class="decks-count">16/16</span>
+                                        <div class="progress-bar">
+                                            <div class="fill champion"
+                                                style="width: 100.0%"></div>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td>2400</td>
+                            </tr>
+                            
+                            <tr class="status-champion">
+                                <td>8</td>
+                                <td>
+                                    <span class="badge champion">
+                                        Campeão
+                                    </span>
+                                </td>
+                                <td>
+                                    <div class="member-name">
+                                        <strong>Theus Carvalho</strong>
+                                        <span class="member-tag">#82QC0YL2C</span>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="decks-progress">
+                                        <span class="decks-count">16/16</span>
+                                        <div class="progress-bar">
+                                            <div class="fill champion"
+                                                style="width: 100.0%"></div>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td>2400</td>
+                            </tr>
+                            
+                            <tr class="status-champion">
+                                <td>9</td>
+                                <td>
+                                    <span class="badge champion">
+                                        Campeão
+                                    </span>
+                                </td>
+                                <td>
+                                    <div class="member-name">
+                                        <strong>H A R D's</strong>
+                                        <span class="member-tag">#PVJULCYQQ</span>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="decks-progress">
+                                        <span class="decks-count">16/16</span>
+                                        <div class="progress-bar">
+                                            <div class="fill champion"
+                                                style="width: 100.0%"></div>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td>2400</td>
+                            </tr>
+                            
+                            <tr class="status-champion">
+                                <td>10</td>
+                                <td>
+                                    <span class="badge champion">
+                                        Campeão
+                                    </span>
+                                </td>
+                                <td>
+                                    <div class="member-name">
+                                        <strong>Luciano</strong>
+                                        <span class="member-tag">#LVGCLQQ8L</span>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="decks-progress">
+                                        <span class="decks-count">16/16</span>
+                                        <div class="progress-bar">
+                                            <div class="fill champion"
+                                                style="width: 100.0%"></div>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td>2350</td>
+                            </tr>
+                            
+                            <tr class="status-champion">
+                                <td>11</td>
+                                <td>
+                                    <span class="badge champion">
+                                        Campeão
+                                    </span>
+                                </td>
+                                <td>
+                                    <div class="member-name">
+                                        <strong>luisinn7</strong>
+                                        <span class="member-tag">#9PCQY89PV</span>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="decks-progress">
+                                        <span class="decks-count">16/16</span>
+                                        <div class="progress-bar">
+                                            <div class="fill champion"
+                                                style="width: 100.0%"></div>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td>2300</td>
+                            </tr>
+                            
+                            <tr class="status-champion">
+                                <td>12</td>
+                                <td>
+                                    <span class="badge champion">
+                                        Campeão
+                                    </span>
+                                </td>
+                                <td>
+                                    <div class="member-name">
+                                        <strong>51 é pinga</strong>
+                                        <span class="member-tag">#UJRLJY0L2</span>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="decks-progress">
+                                        <span class="decks-count">16/16</span>
+                                        <div class="progress-bar">
+                                            <div class="fill champion"
+                                                style="width: 100.0%"></div>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td>2300</td>
+                            </tr>
+                            
+                            <tr class="status-champion">
+                                <td>13</td>
+                                <td>
+                                    <span class="badge champion">
+                                        Campeão
+                                    </span>
+                                </td>
+                                <td>
+                                    <div class="member-name">
+                                        <strong>EDDIE</strong>
+                                        <span class="member-tag">#2VLR9U90</span>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="decks-progress">
+                                        <span class="decks-count">16/16</span>
+                                        <div class="progress-bar">
+                                            <div class="fill champion"
+                                                style="width: 100.0%"></div>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td>2300</td>
+                            </tr>
+                            
+                            <tr class="status-champion">
+                                <td>14</td>
+                                <td>
+                                    <span class="badge champion">
+                                        Campeão
+                                    </span>
+                                </td>
+                                <td>
+                                    <div class="member-name">
+                                        <strong>O GUARDIÃO</strong>
+                                        <span class="member-tag">#UJRQ2L09</span>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="decks-progress">
+                                        <span class="decks-count">16/16</span>
+                                        <div class="progress-bar">
+                                            <div class="fill champion"
+                                                style="width: 100.0%"></div>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td>2300</td>
+                            </tr>
+                            
+                            <tr class="status-champion">
+                                <td>15</td>
+                                <td>
+                                    <span class="badge champion">
+                                        Campeão
+                                    </span>
+                                </td>
+                                <td>
+                                    <div class="member-name">
+                                        <strong>polaris</strong>
+                                        <span class="member-tag">#PCPCJU20Y</span>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="decks-progress">
+                                        <span class="decks-count">16/16</span>
+                                        <div class="progress-bar">
+                                            <div class="fill champion"
+                                                style="width: 100.0%"></div>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td>2300</td>
+                            </tr>
+                            
+                            <tr class="status-champion">
+                                <td>16</td>
+                                <td>
+                                    <span class="badge champion">
+                                        Campeão
+                                    </span>
+                                </td>
+                                <td>
+                                    <div class="member-name">
+                                        <strong>gabiggoughost</strong>
+                                        <span class="member-tag">#V9PCU0LCV</span>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="decks-progress">
+                                        <span class="decks-count">16/16</span>
+                                        <div class="progress-bar">
+                                            <div class="fill champion"
+                                                style="width: 100.0%"></div>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td>2300</td>
+                            </tr>
+                            
+                            <tr class="status-champion">
+                                <td>17</td>
+                                <td>
+                                    <span class="badge champion">
+                                        Campeão
+                                    </span>
+                                </td>
+                                <td>
+                                    <div class="member-name">
+                                        <strong>⭐O SENTINELA ⭐</strong>
+                                        <span class="member-tag">#99PJ9QQPC</span>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="decks-progress">
+                                        <span class="decks-count">16/16</span>
+                                        <div class="progress-bar">
+                                            <div class="fill champion"
+                                                style="width: 100.0%"></div>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td>2300</td>
+                            </tr>
+                            
+                            <tr class="status-champion">
+                                <td>18</td>
+                                <td>
+                                    <span class="badge champion">
+                                        Campeão
+                                    </span>
+                                </td>
+                                <td>
+                                    <div class="member-name">
+                                        <strong>petrus</strong>
+                                        <span class="member-tag">#88U9PLGVV</span>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="decks-progress">
+                                        <span class="decks-count">16/16</span>
+                                        <div class="progress-bar">
+                                            <div class="fill champion"
+                                                style="width: 100.0%"></div>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td>2300</td>
+                            </tr>
+                            
+                            <tr class="status-champion">
+                                <td>19</td>
+                                <td>
+                                    <span class="badge champion">
+                                        Campeão
+                                    </span>
+                                </td>
+                                <td>
+                                    <div class="member-name">
+                                        <strong>ZackThunder</strong>
+                                        <span class="member-tag">#R9UP0QLR9</span>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="decks-progress">
+                                        <span class="decks-count">16/16</span>
+                                        <div class="progress-bar">
+                                            <div class="fill champion"
+                                                style="width: 100.0%"></div>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td>2250</td>
+                            </tr>
+                            
+                            <tr class="status-champion">
+                                <td>20</td>
+                                <td>
+                                    <span class="badge champion">
+                                        Campeão
+                                    </span>
+                                </td>
+                                <td>
+                                    <div class="member-name">
+                                        <strong>joão3:16</strong>
+                                        <span class="member-tag">#U220VCULP</span>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="decks-progress">
+                                        <span class="decks-count">16/16</span>
+                                        <div class="progress-bar">
+                                            <div class="fill champion"
+                                                style="width: 100.0%"></div>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td>2150</td>
+                            </tr>
+                            
+                            <tr class="status-champion">
+                                <td>21</td>
+                                <td>
+                                    <span class="badge champion">
+                                        Campeão
+                                    </span>
+                                </td>
+                                <td>
+                                    <div class="member-name">
+                                        <strong>RobaFrag</strong>
+                                        <span class="member-tag">#8U008PQU8</span>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="decks-progress">
+                                        <span class="decks-count">16/16</span>
+                                        <div class="progress-bar">
+                                            <div class="fill champion"
+                                                style="width: 100.0%"></div>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td>2125</td>
+                            </tr>
+                            
+                            <tr class="status-champion">
+                                <td>22</td>
+                                <td>
+                                    <span class="badge champion">
+                                        Campeão
+                                    </span>
+                                </td>
+                                <td>
+                                    <div class="member-name">
+                                        <strong>yNoobZy</strong>
+                                        <span class="member-tag">#C9PY8URJQ</span>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="decks-progress">
+                                        <span class="decks-count">16/16</span>
+                                        <div class="progress-bar">
+                                            <div class="fill champion"
+                                                style="width: 100.0%"></div>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td>2100</td>
+                            </tr>
+                            
+                            <tr class="status-champion">
+                                <td>23</td>
+                                <td>
+                                    <span class="badge champion">
+                                        Campeão
+                                    </span>
+                                </td>
+                                <td>
+                                    <div class="member-name">
+                                        <strong>super</strong>
+                                        <span class="member-tag">#UU0RCRLQU</span>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="decks-progress">
+                                        <span class="decks-count">16/16</span>
+                                        <div class="progress-bar">
+                                            <div class="fill champion"
+                                                style="width: 100.0%"></div>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td>2100</td>
+                            </tr>
+                            
+                            <tr class="status-champion">
+                                <td>24</td>
+                                <td>
+                                    <span class="badge champion">
+                                        Campeão
+                                    </span>
+                                </td>
+                                <td>
+                                    <div class="member-name">
+                                        <strong>JOAOVITOR:D</strong>
+                                        <span class="member-tag">#Y8R9V2URG</span>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="decks-progress">
+                                        <span class="decks-count">16/16</span>
+                                        <div class="progress-bar">
+                                            <div class="fill champion"
+                                                style="width: 100.0%"></div>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td>2000</td>
+                            </tr>
+                            
+                            <tr class="status-champion">
+                                <td>25</td>
+                                <td>
+                                    <span class="badge champion">
+                                        Campeão
+                                    </span>
+                                </td>
+                                <td>
+                                    <div class="member-name">
+                                        <strong>santsx777</strong>
+                                        <span class="member-tag">#C8G9JJL89</span>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="decks-progress">
+                                        <span class="decks-count">16/16</span>
+                                        <div class="progress-bar">
+                                            <div class="fill champion"
+                                                style="width: 100.0%"></div>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td>1900</td>
+                            </tr>
+                            
+                            <tr class="status-champion">
+                                <td>26</td>
+                                <td>
+                                    <span class="badge champion">
+                                        Campeão
+                                    </span>
+                                </td>
+                                <td>
+                                    <div class="member-name">
+                                        <strong>MJK⚡️SPARKY</strong>
+                                        <span class="member-tag">#22CGYQ2UP</span>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="decks-progress">
+                                        <span class="decks-count">16/16</span>
+                                        <div class="progress-bar">
+                                            <div class="fill champion"
+                                                style="width: 100.0%"></div>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td>1675</td>
+                            </tr>
+                            
+                            <tr class="status-warning">
+                                <td>27</td>
+                                <td>
+                                    <span class="badge warning">
+                                        Atenção
+                                    </span>
+                                </td>
+                                <td>
+                                    <div class="member-name">
+                                        <strong>Daniele❤</strong>
+                                        <span class="member-tag">#8R2LRC80Q</span>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="decks-progress">
+                                        <span class="decks-count">15/16</span>
+                                        <div class="progress-bar">
+                                            <div class="fill warning"
+                                                style="width: 93.75%"></div>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td>2100</td>
+                            </tr>
+                            
+                            <tr class="status-warning">
+                                <td>28</td>
+                                <td>
+                                    <span class="badge warning">
+                                        Atenção
+                                    </span>
+                                </td>
+                                <td>
+                                    <div class="member-name">
+                                        <strong>NEGUIM244</strong>
+                                        <span class="member-tag">#PYVJVURP0</span>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="decks-progress">
+                                        <span class="decks-count">14/16</span>
+                                        <div class="progress-bar">
+                                            <div class="fill warning"
+                                                style="width: 87.5%"></div>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td>1950</td>
+                            </tr>
+                            
+                            <tr class="status-warning">
+                                <td>29</td>
+                                <td>
+                                    <span class="badge warning">
+                                        Atenção
+                                    </span>
+                                </td>
+                                <td>
+                                    <div class="member-name">
+                                        <strong>domador de but</strong>
+                                        <span class="member-tag">#GRY890GY2</span>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="decks-progress">
+                                        <span class="decks-count">14/16</span>
+                                        <div class="progress-bar">
+                                            <div class="fill warning"
+                                                style="width: 87.5%"></div>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td>1900</td>
+                            </tr>
+                            
+                            <tr class="status-warning">
+                                <td>30</td>
+                                <td>
+                                    <span class="badge warning">
+                                        Atenção
+                                    </span>
+                                </td>
+                                <td>
+                                    <div class="member-name">
+                                        <strong>Rodolfos</strong>
+                                        <span class="member-tag">#200JYCVYGY</span>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="decks-progress">
+                                        <span class="decks-count">14/16</span>
+                                        <div class="progress-bar">
+                                            <div class="fill warning"
+                                                style="width: 87.5%"></div>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td>1800</td>
+                            </tr>
+                            
+                            <tr class="status-warning">
+                                <td>31</td>
+                                <td>
+                                    <span class="badge warning">
+                                        Atenção
+                                    </span>
+                                </td>
+                                <td>
+                                    <div class="member-name">
+                                        <strong>Chetto</strong>
+                                        <span class="member-tag">#2LR0RR89Q</span>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="decks-progress">
+                                        <span class="decks-count">13/16</span>
+                                        <div class="progress-bar">
+                                            <div class="fill warning"
+                                                style="width: 81.25%"></div>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td>2000</td>
+                            </tr>
+                            
+                            <tr class="status-warning">
+                                <td>32</td>
+                                <td>
+                                    <span class="badge warning">
+                                        Atenção
+                                    </span>
+                                </td>
+                                <td>
+                                    <div class="member-name">
+                                        <strong>OneDePrata</strong>
+                                        <span class="member-tag">#LYL9CU0P0</span>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="decks-progress">
+                                        <span class="decks-count">13/16</span>
+                                        <div class="progress-bar">
+                                            <div class="fill warning"
+                                                style="width: 81.25%"></div>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td>2000</td>
+                            </tr>
+                            
+                            <tr class="status-warning">
+                                <td>33</td>
+                                <td>
+                                    <span class="badge warning">
+                                        Atenção
+                                    </span>
+                                </td>
+                                <td>
+                                    <div class="member-name">
+                                        <strong>Dockz</strong>
+                                        <span class="member-tag">#YJUG9Y88</span>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="decks-progress">
+                                        <span class="decks-count">12/16</span>
+                                        <div class="progress-bar">
+                                            <div class="fill warning"
+                                                style="width: 75.0%"></div>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td>2225</td>
+                            </tr>
+                            
+                            <tr class="status-warning">
+                                <td>34</td>
+                                <td>
+                                    <span class="badge warning">
+                                        Atenção
+                                    </span>
+                                </td>
+                                <td>
+                                    <div class="member-name">
+                                        <strong>Guizx7</strong>
+                                        <span class="member-tag">#9GPRG9QPL</span>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="decks-progress">
+                                        <span class="decks-count">12/16</span>
+                                        <div class="progress-bar">
+                                            <div class="fill warning"
+                                                style="width: 75.0%"></div>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td>2050</td>
+                            </tr>
+                            
+                            <tr class="status-warning">
+                                <td>35</td>
+                                <td>
+                                    <span class="badge warning">
+                                        Atenção
+                                    </span>
+                                </td>
+                                <td>
+                                    <div class="member-name">
+                                        <strong>antedeguemon</strong>
+                                        <span class="member-tag">#208JPG9R</span>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="decks-progress">
+                                        <span class="decks-count">12/16</span>
+                                        <div class="progress-bar">
+                                            <div class="fill warning"
+                                                style="width: 75.0%"></div>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td>1800</td>
+                            </tr>
+                            
+                            <tr class="status-warning">
+                                <td>36</td>
+                                <td>
+                                    <span class="badge warning">
+                                        Atenção
+                                    </span>
+                                </td>
+                                <td>
+                                    <div class="member-name">
+                                        <strong>tavin</strong>
+                                        <span class="member-tag">#U8VP8L8L0</span>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="decks-progress">
+                                        <span class="decks-count">12/16</span>
+                                        <div class="progress-bar">
+                                            <div class="fill warning"
+                                                style="width: 75.0%"></div>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td>1700</td>
+                            </tr>
+                            
+                            <tr class="status-warning">
+                                <td>37</td>
+                                <td>
+                                    <span class="badge warning">
+                                        Atenção
+                                    </span>
+                                </td>
+                                <td>
+                                    <div class="member-name">
+                                        <strong>luba</strong>
+                                        <span class="member-tag">#PQV9QQRQ0</span>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="decks-progress">
+                                        <span class="decks-count">12/16</span>
+                                        <div class="progress-bar">
+                                            <div class="fill warning"
+                                                style="width: 75.0%"></div>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td>1700</td>
+                            </tr>
+                            
+                            <tr class="status-warning">
+                                <td>38</td>
+                                <td>
+                                    <span class="badge warning">
+                                        Atenção
+                                    </span>
+                                </td>
+                                <td>
+                                    <div class="member-name">
+                                        <strong>carlos Daniel</strong>
+                                        <span class="member-tag">#8CVU0PP00</span>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="decks-progress">
+                                        <span class="decks-count">12/16</span>
+                                        <div class="progress-bar">
+                                            <div class="fill warning"
+                                                style="width: 75.0%"></div>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td>1500</td>
+                            </tr>
+                            
+                            <tr class="status-danger">
+                                <td>39</td>
+                                <td>
+                                    <span class="badge danger">
+                                        Perigo
+                                    </span>
+                                </td>
+                                <td>
+                                    <div class="member-name">
+                                        <strong>Sasuke</strong>
+                                        <span class="member-tag">#Q8098VGG</span>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="decks-progress">
+                                        <span class="decks-count">10/16</span>
+                                        <div class="progress-bar">
+                                            <div class="fill danger"
+                                                style="width: 62.5%"></div>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td>1600</td>
+                            </tr>
+                            
+                            <tr class="status-danger">
+                                <td>40</td>
+                                <td>
+                                    <span class="badge danger">
+                                        Perigo
+                                    </span>
+                                </td>
+                                <td>
+                                    <div class="member-name">
+                                        <strong>isp</strong>
+                                        <span class="member-tag">#C8C20C0JQ</span>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="decks-progress">
+                                        <span class="decks-count">10/16</span>
+                                        <div class="progress-bar">
+                                            <div class="fill danger"
+                                                style="width: 62.5%"></div>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td>1300</td>
+                            </tr>
+                            
+                            <tr class="status-danger">
+                                <td>41</td>
+                                <td>
+                                    <span class="badge danger">
+                                        Perigo
+                                    </span>
+                                </td>
+                                <td>
+                                    <div class="member-name">
+                                        <strong>Zenitsu愛</strong>
+                                        <span class="member-tag">#8C8RY8GL9</span>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="decks-progress">
+                                        <span class="decks-count">10/16</span>
+                                        <div class="progress-bar">
+                                            <div class="fill danger"
+                                                style="width: 62.5%"></div>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td>1150</td>
+                            </tr>
+                            
+                            <tr class="status-danger">
+                                <td>42</td>
+                                <td>
+                                    <span class="badge danger">
+                                        Perigo
+                                    </span>
+                                </td>
+                                <td>
+                                    <div class="member-name">
+                                        <strong>Alvaro</strong>
+                                        <span class="member-tag">#8JULVVL0J</span>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="decks-progress">
+                                        <span class="decks-count">9/16</span>
+                                        <div class="progress-bar">
+                                            <div class="fill danger"
+                                                style="width: 56.25%"></div>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td>1300</td>
+                            </tr>
+                            
+                            <tr class="status-danger">
+                                <td>43</td>
+                                <td>
+                                    <span class="badge danger">
+                                        Perigo
+                                    </span>
+                                </td>
+                                <td>
+                                    <div class="member-name">
+                                        <strong>AUGUSTO</strong>
+                                        <span class="member-tag">#VLYU9Y2Y</span>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="decks-progress">
+                                        <span class="decks-count">8/16</span>
+                                        <div class="progress-bar">
+                                            <div class="fill danger"
+                                                style="width: 50.0%"></div>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td>1600</td>
+                            </tr>
+                            
+                            <tr class="status-danger">
+                                <td>44</td>
+                                <td>
+                                    <span class="badge danger">
+                                        Perigo
+                                    </span>
+                                </td>
+                                <td>
+                                    <div class="member-name">
+                                        <strong>MegaJoaoReal</strong>
+                                        <span class="member-tag">#RUQ90VLVP</span>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="decks-progress">
+                                        <span class="decks-count">8/16</span>
+                                        <div class="progress-bar">
+                                            <div class="fill danger"
+                                                style="width: 50.0%"></div>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td>1600</td>
+                            </tr>
+                            
+                            <tr class="status-danger">
+                                <td>45</td>
+                                <td>
+                                    <span class="badge danger">
+                                        Perigo
+                                    </span>
+                                </td>
+                                <td>
+                                    <div class="member-name">
+                                        <strong>ArthurNoSkill●</strong>
+                                        <span class="member-tag">#9PLVLLVR2</span>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="decks-progress">
+                                        <span class="decks-count">8/16</span>
+                                        <div class="progress-bar">
+                                            <div class="fill danger"
+                                                style="width: 50.0%"></div>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td>1125</td>
+                            </tr>
+                            
+                            <tr class="status-danger">
+                                <td>46</td>
+                                <td>
+                                    <span class="badge danger">
+                                        Perigo
+                                    </span>
+                                </td>
+                                <td>
+                                    <div class="member-name">
+                                        <strong>Sotto ツ</strong>
+                                        <span class="member-tag">#2P299V0CU</span>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="decks-progress">
+                                        <span class="decks-count">8/16</span>
+                                        <div class="progress-bar">
+                                            <div class="fill danger"
+                                                style="width: 50.0%"></div>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td>1050</td>
+                            </tr>
+                            
+                            <tr class="status-danger">
+                                <td>47</td>
+                                <td>
+                                    <span class="badge danger">
+                                        Perigo
+                                    </span>
+                                </td>
+                                <td>
+                                    <div class="member-name">
+                                        <strong>mathi❄️</strong>
+                                        <span class="member-tag">#LLGUL2RUJ</span>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="decks-progress">
+                                        <span class="decks-count">5/16</span>
+                                        <div class="progress-bar">
+                                            <div class="fill danger"
+                                                style="width: 31.25%"></div>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td>875</td>
+                            </tr>
+                            
+                            <tr class="status-danger">
+                                <td>48</td>
+                                <td>
+                                    <span class="badge danger">
+                                        Perigo
+                                    </span>
+                                </td>
+                                <td>
+                                    <div class="member-name">
+                                        <strong>PeitinDoGalego</strong>
+                                        <span class="member-tag">#J8JQ8LQUY</span>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="decks-progress">
+                                        <span class="decks-count">4/16</span>
+                                        <div class="progress-bar">
+                                            <div class="fill danger"
+                                                style="width: 25.0%"></div>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td>700</td>
+                            </tr>
+                            
+                            <tr class="status-danger">
+                                <td>49</td>
+                                <td>
+                                    <span class="badge danger">
+                                        Perigo
+                                    </span>
+                                </td>
+                                <td>
+                                    <div class="member-name">
+                                        <strong>Reus</strong>
+                                        <span class="member-tag">#R29QRVQGU</span>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="decks-progress">
+                                        <span class="decks-count">2/16</span>
+                                        <div class="progress-bar">
+                                            <div class="fill danger"
+                                                style="width: 12.5%"></div>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td>400</td>
+                            </tr>
+                            
+                        </tbody>
+                    </table>
+                </div>
+            </section>
+        </main>
+    </div>
+
+    <script src="static/table-sort.js"></script>
+</body>
+
+</html>

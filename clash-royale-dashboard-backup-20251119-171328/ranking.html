@@ -1,0 +1,1888 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ranking - OS GUARDIÕES</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="static/style.css">
+</head>
+
+<body>
+    <div class="app-container">
+        
+        <!-- Header Unificado - Inclua em todos os templates -->
+<header class="main-header">
+    <div class="header-bg-pattern"></div>
+    <div class="logo-area">
+        <img src="https://cdn-icons-png.flaticon.com/512/1165/1165305.png" alt="Clash Royale Logo"
+            class="cr-logo pulse">
+        <div class="clan-info">
+            <h1 class="clan-name">OS GUARDIÕES</h1>
+            <div class="clan-meta">
+                <span class="clan-tag">#9PJRJRPC</span>
+                <span class="clan-trophies">🏆 3097</span>
+            </div>
+        </div>
+    </div>
+    <nav class="main-nav">
+        <a href="index.html" class="nav-link ">
+            <span class="nav-icon">🏠</span>
+            <span class="nav-text">Visão Geral</span>
+        </a>
+        <a href="audit.html" class="nav-link ">
+            <span class="nav-icon">📋</span>
+            <span class="nav-text">Auditoria</span>
+        </a>
+        <a href="war_history.html" class="nav-link ">
+            <span class="nav-icon">⚔️</span>
+            <span class="nav-text">Guerras</span>
+        </a>
+        <a href="members_stats.html" class="nav-link ">
+            <span class="nav-icon">👥</span>
+            <span class="nav-text">Membros</span>
+        </a>
+        <a href="ranking.html" class="nav-link active">
+            <span class="nav-icon">🏅</span>
+            <span class="nav-text">Ranking</span>
+        </a>
+    </nav>
+    <div class="update-info">
+        <span class="update-icon">🔄</span>
+        <span class="update-text">07/12/2025 04:07</span>
+    </div>
+</header>
+
+        <main class="dashboard-grid">
+            <!-- Podium dos Top 3 -->
+            <section class="podium-section">
+                <h2 class="section-title">🏆 Top 3 Jogadores</h2>
+                <div class="podium">
+                    
+                    <!-- 2º Lugar -->
+                    <div class="podium-place second">
+                        <div class="podium-avatar">
+                            <div class="rank-badge silver">2</div>
+                            <div class="avatar-circle">G</div>
+                        </div>
+                        <div class="podium-stats">
+                            <h3>Guizx7</h3>
+                            <p class="trophy-count">🏆 10000</p>
+                            <p class="donations">🎁 413</p>
+                        </div>
+                        <div class="podium-base silver-base">
+                            <span class="podium-number">2</span>
+                        </div>
+                    </div>
+                    <!-- 1º Lugar -->
+                    <div class="podium-place first">
+                        <div class="crown-icon">👑</div>
+                        <div class="podium-avatar">
+                            <div class="rank-badge gold">1</div>
+                            <div class="avatar-circle gold-glow">J</div>
+                        </div>
+                        <div class="podium-stats">
+                            <h3>JOAOVITOR:D</h3>
+                            <p class="trophy-count">🏆 10000</p>
+                            <p class="donations">🎁 36</p>
+                        </div>
+                        <div class="podium-base gold-base">
+                            <span class="podium-number">1</span>
+                        </div>
+                    </div>
+                    <!-- 3º Lugar -->
+                    <div class="podium-place third">
+                        <div class="podium-avatar">
+                            <div class="rank-badge bronze">3</div>
+                            <div class="avatar-circle">P</div>
+                        </div>
+                        <div class="podium-stats">
+                            <h3>PeitinDoGalego</h3>
+                            <p class="trophy-count">🏆 10000</p>
+                            <p class="donations">🎁 202</p>
+                        </div>
+                        <div class="podium-base bronze-base">
+                            <span class="podium-number">3</span>
+                        </div>
+                    </div>
+                    
+                </div>
+            </section>
+
+            <!-- Top 10 Visual Podium -->
+            <section class="top10-podium-section">
+                <h2 class="section-title">🏅 Top 10 Jogadores</h2>
+                <p class="subtitle">Ranking por Troféus</p>
+
+                <div class="top10-grid">
+                    
+                    
+                    <div class="top10-card rank-1">
+                        <div class="rank-badge-top10">1</div>
+                        <div class="player-avatar-top10">
+                            J
+                        </div>
+                        <div class="player-info-top10">
+                            <h4>JOAOVITOR:D</h4>
+                            <div class="player-trophies-top10">
+                                <span class="trophy-icon">🏆</span>
+                                <span class="trophy-value">10000</span>
+                            </div>
+                            <div class="player-donations-top10">
+                                <span class="donation-icon">🎁</span>
+                                <span class="donation-value">36</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="top10-card rank-2">
+                        <div class="rank-badge-top10">2</div>
+                        <div class="player-avatar-top10">
+                            G
+                        </div>
+                        <div class="player-info-top10">
+                            <h4>Guizx7</h4>
+                            <div class="player-trophies-top10">
+                                <span class="trophy-icon">🏆</span>
+                                <span class="trophy-value">10000</span>
+                            </div>
+                            <div class="player-donations-top10">
+                                <span class="donation-icon">🎁</span>
+                                <span class="donation-value">413</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="top10-card rank-3">
+                        <div class="rank-badge-top10">3</div>
+                        <div class="player-avatar-top10">
+                            P
+                        </div>
+                        <div class="player-info-top10">
+                            <h4>PeitinDoGalego</h4>
+                            <div class="player-trophies-top10">
+                                <span class="trophy-icon">🏆</span>
+                                <span class="trophy-value">10000</span>
+                            </div>
+                            <div class="player-donations-top10">
+                                <span class="donation-icon">🎁</span>
+                                <span class="donation-value">202</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="top10-card rank-4">
+                        <div class="rank-badge-top10">4</div>
+                        <div class="player-avatar-top10">
+                            T
+                        </div>
+                        <div class="player-info-top10">
+                            <h4>Theus Carvalho</h4>
+                            <div class="player-trophies-top10">
+                                <span class="trophy-icon">🏆</span>
+                                <span class="trophy-value">10000</span>
+                            </div>
+                            <div class="player-donations-top10">
+                                <span class="donation-icon">🎁</span>
+                                <span class="donation-value">66</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="top10-card rank-5">
+                        <div class="rank-badge-top10">5</div>
+                        <div class="player-avatar-top10">
+                            V
+                        </div>
+                        <div class="player-info-top10">
+                            <h4>Vinícius</h4>
+                            <div class="player-trophies-top10">
+                                <span class="trophy-icon">🏆</span>
+                                <span class="trophy-value">10000</span>
+                            </div>
+                            <div class="player-donations-top10">
+                                <span class="donation-icon">🎁</span>
+                                <span class="donation-value">92</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="top10-card rank-6">
+                        <div class="rank-badge-top10">6</div>
+                        <div class="player-avatar-top10">
+                            P
+                        </div>
+                        <div class="player-info-top10">
+                            <h4>PedrinhoR14</h4>
+                            <div class="player-trophies-top10">
+                                <span class="trophy-icon">🏆</span>
+                                <span class="trophy-value">10000</span>
+                            </div>
+                            <div class="player-donations-top10">
+                                <span class="donation-icon">🎁</span>
+                                <span class="donation-value">18</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="top10-card rank-7">
+                        <div class="rank-badge-top10">7</div>
+                        <div class="player-avatar-top10">
+                            R
+                        </div>
+                        <div class="player-info-top10">
+                            <h4>RobaFrag</h4>
+                            <div class="player-trophies-top10">
+                                <span class="trophy-icon">🏆</span>
+                                <span class="trophy-value">10000</span>
+                            </div>
+                            <div class="player-donations-top10">
+                                <span class="donation-icon">🎁</span>
+                                <span class="donation-value">351</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="top10-card rank-8">
+                        <div class="rank-badge-top10">8</div>
+                        <div class="player-avatar-top10">
+                            B
+                        </div>
+                        <div class="player-info-top10">
+                            <h4>Bruno</h4>
+                            <div class="player-trophies-top10">
+                                <span class="trophy-icon">🏆</span>
+                                <span class="trophy-value">10000</span>
+                            </div>
+                            <div class="player-donations-top10">
+                                <span class="donation-icon">🎁</span>
+                                <span class="donation-value">0</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="top10-card rank-9">
+                        <div class="rank-badge-top10">9</div>
+                        <div class="player-avatar-top10">
+                            C
+                        </div>
+                        <div class="player-info-top10">
+                            <h4>Chetto</h4>
+                            <div class="player-trophies-top10">
+                                <span class="trophy-icon">🏆</span>
+                                <span class="trophy-value">10000</span>
+                            </div>
+                            <div class="player-donations-top10">
+                                <span class="donation-icon">🎁</span>
+                                <span class="donation-value">141</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="top10-card rank-10">
+                        <div class="rank-badge-top10">10</div>
+                        <div class="player-avatar-top10">
+                            j
+                        </div>
+                        <div class="player-info-top10">
+                            <h4>joão3:16</h4>
+                            <div class="player-trophies-top10">
+                                <span class="trophy-icon">🏆</span>
+                                <span class="trophy-value">10000</span>
+                            </div>
+                            <div class="player-donations-top10">
+                                <span class="donation-icon">🎁</span>
+                                <span class="donation-value">48</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    
+                </div>
+            </section>
+
+            <!-- Leaderboard Completo -->
+            <section class="card leaderboard-card">
+                <div class="card-header">
+                    <h2>🏅 Leaderboard Completo</h2>
+                    <div class="filter-buttons">
+                        <button class="filter-btn active" onclick="filterBy('trophies')">Troféus</button>
+                        <button class="filter-btn" onclick="filterBy('donations')">Doações</button>
+                        <button class="filter-btn" onclick="filterBy('war')">Guerra</button>
+                    </div>
+                </div>
+
+                <div class="leaderboard">
+                    
+                    <div class="leaderboard-item top-1"
+                        data-trophies="10000" data-donations="36"
+                        data-war="460">
+                        <div class="rank-display">
+                            
+                            <span class="rank-icon gold">🥇</span>
+                            
+                        </div>
+                        <div class="player-details">
+                            <div class="player-name">
+                                <strong>JOAOVITOR:D</strong>
+                                <span class="player-tag">#Y8R9V2URG</span>
+                            </div>
+                            <span class="role-badge elder">elder</span>
+                        </div>
+                        <div class="player-stats">
+                            <div class="stat-item">
+                                <span class="stat-label">🏆</span>
+                                <span class="stat-value">10000</span>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-label">🎁</span>
+                                <span class="stat-value">36</span>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-label">⚔️</span>
+                                <span class="stat-value">460</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="leaderboard-item top-2"
+                        data-trophies="10000" data-donations="413"
+                        data-war="4230">
+                        <div class="rank-display">
+                            
+                            <span class="rank-icon silver">🥈</span>
+                            
+                        </div>
+                        <div class="player-details">
+                            <div class="player-name">
+                                <strong>Guizx7</strong>
+                                <span class="player-tag">#9GPRG9QPL</span>
+                            </div>
+                            <span class="role-badge elder">elder</span>
+                        </div>
+                        <div class="player-stats">
+                            <div class="stat-item">
+                                <span class="stat-label">🏆</span>
+                                <span class="stat-value">10000</span>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-label">🎁</span>
+                                <span class="stat-value">413</span>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-label">⚔️</span>
+                                <span class="stat-value">4230</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="leaderboard-item top-3"
+                        data-trophies="10000" data-donations="202"
+                        data-war="2120">
+                        <div class="rank-display">
+                            
+                            <span class="rank-icon bronze">🥉</span>
+                            
+                        </div>
+                        <div class="player-details">
+                            <div class="player-name">
+                                <strong>PeitinDoGalego</strong>
+                                <span class="player-tag">#J8JQ8LQUY</span>
+                            </div>
+                            <span class="role-badge member">member</span>
+                        </div>
+                        <div class="player-stats">
+                            <div class="stat-item">
+                                <span class="stat-label">🏆</span>
+                                <span class="stat-value">10000</span>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-label">🎁</span>
+                                <span class="stat-value">202</span>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-label">⚔️</span>
+                                <span class="stat-value">2120</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="leaderboard-item "
+                        data-trophies="10000" data-donations="66"
+                        data-war="760">
+                        <div class="rank-display">
+                            
+                            <span class="rank-number">4</span>
+                            
+                        </div>
+                        <div class="player-details">
+                            <div class="player-name">
+                                <strong>Theus Carvalho</strong>
+                                <span class="player-tag">#82QC0YL2C</span>
+                            </div>
+                            <span class="role-badge elder">elder</span>
+                        </div>
+                        <div class="player-stats">
+                            <div class="stat-item">
+                                <span class="stat-label">🏆</span>
+                                <span class="stat-value">10000</span>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-label">🎁</span>
+                                <span class="stat-value">66</span>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-label">⚔️</span>
+                                <span class="stat-value">760</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="leaderboard-item "
+                        data-trophies="10000" data-donations="92"
+                        data-war="1020">
+                        <div class="rank-display">
+                            
+                            <span class="rank-number">5</span>
+                            
+                        </div>
+                        <div class="player-details">
+                            <div class="player-name">
+                                <strong>Vinícius</strong>
+                                <span class="player-tag">#YPJUU2ULU</span>
+                            </div>
+                            <span class="role-badge elder">elder</span>
+                        </div>
+                        <div class="player-stats">
+                            <div class="stat-item">
+                                <span class="stat-label">🏆</span>
+                                <span class="stat-value">10000</span>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-label">🎁</span>
+                                <span class="stat-value">92</span>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-label">⚔️</span>
+                                <span class="stat-value">1020</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="leaderboard-item "
+                        data-trophies="10000" data-donations="18"
+                        data-war="280">
+                        <div class="rank-display">
+                            
+                            <span class="rank-number">6</span>
+                            
+                        </div>
+                        <div class="player-details">
+                            <div class="player-name">
+                                <strong>PedrinhoR14</strong>
+                                <span class="player-tag">#PJL0Q2J2</span>
+                            </div>
+                            <span class="role-badge member">member</span>
+                        </div>
+                        <div class="player-stats">
+                            <div class="stat-item">
+                                <span class="stat-label">🏆</span>
+                                <span class="stat-value">10000</span>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-label">🎁</span>
+                                <span class="stat-value">18</span>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-label">⚔️</span>
+                                <span class="stat-value">280</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="leaderboard-item "
+                        data-trophies="10000" data-donations="351"
+                        data-war="3610">
+                        <div class="rank-display">
+                            
+                            <span class="rank-number">7</span>
+                            
+                        </div>
+                        <div class="player-details">
+                            <div class="player-name">
+                                <strong>RobaFrag</strong>
+                                <span class="player-tag">#8U008PQU8</span>
+                            </div>
+                            <span class="role-badge coLeader">coLeader</span>
+                        </div>
+                        <div class="player-stats">
+                            <div class="stat-item">
+                                <span class="stat-label">🏆</span>
+                                <span class="stat-value">10000</span>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-label">🎁</span>
+                                <span class="stat-value">351</span>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-label">⚔️</span>
+                                <span class="stat-value">3610</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="leaderboard-item "
+                        data-trophies="10000" data-donations="0"
+                        data-war="100">
+                        <div class="rank-display">
+                            
+                            <span class="rank-number">8</span>
+                            
+                        </div>
+                        <div class="player-details">
+                            <div class="player-name">
+                                <strong>Bruno</strong>
+                                <span class="player-tag">#UPR022QUR</span>
+                            </div>
+                            <span class="role-badge elder">elder</span>
+                        </div>
+                        <div class="player-stats">
+                            <div class="stat-item">
+                                <span class="stat-label">🏆</span>
+                                <span class="stat-value">10000</span>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-label">🎁</span>
+                                <span class="stat-value">0</span>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-label">⚔️</span>
+                                <span class="stat-value">100</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="leaderboard-item "
+                        data-trophies="10000" data-donations="141"
+                        data-war="1510">
+                        <div class="rank-display">
+                            
+                            <span class="rank-number">9</span>
+                            
+                        </div>
+                        <div class="player-details">
+                            <div class="player-name">
+                                <strong>Chetto</strong>
+                                <span class="player-tag">#2LR0RR89Q</span>
+                            </div>
+                            <span class="role-badge elder">elder</span>
+                        </div>
+                        <div class="player-stats">
+                            <div class="stat-item">
+                                <span class="stat-label">🏆</span>
+                                <span class="stat-value">10000</span>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-label">🎁</span>
+                                <span class="stat-value">141</span>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-label">⚔️</span>
+                                <span class="stat-value">1510</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="leaderboard-item "
+                        data-trophies="10000" data-donations="48"
+                        data-war="580">
+                        <div class="rank-display">
+                            
+                            <span class="rank-number">10</span>
+                            
+                        </div>
+                        <div class="player-details">
+                            <div class="player-name">
+                                <strong>joão3:16</strong>
+                                <span class="player-tag">#U220VCULP</span>
+                            </div>
+                            <span class="role-badge coLeader">coLeader</span>
+                        </div>
+                        <div class="player-stats">
+                            <div class="stat-item">
+                                <span class="stat-label">🏆</span>
+                                <span class="stat-value">10000</span>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-label">🎁</span>
+                                <span class="stat-value">48</span>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-label">⚔️</span>
+                                <span class="stat-value">580</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="leaderboard-item "
+                        data-trophies="10000" data-donations="58"
+                        data-war="680">
+                        <div class="rank-display">
+                            
+                            <span class="rank-number">11</span>
+                            
+                        </div>
+                        <div class="player-details">
+                            <div class="player-name">
+                                <strong>mathi❄️</strong>
+                                <span class="player-tag">#LLGUL2RUJ</span>
+                            </div>
+                            <span class="role-badge member">member</span>
+                        </div>
+                        <div class="player-stats">
+                            <div class="stat-item">
+                                <span class="stat-label">🏆</span>
+                                <span class="stat-value">10000</span>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-label">🎁</span>
+                                <span class="stat-value">58</span>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-label">⚔️</span>
+                                <span class="stat-value">680</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="leaderboard-item "
+                        data-trophies="10000" data-donations="219"
+                        data-war="2290">
+                        <div class="rank-display">
+                            
+                            <span class="rank-number">12</span>
+                            
+                        </div>
+                        <div class="player-details">
+                            <div class="player-name">
+                                <strong>DavidSantana</strong>
+                                <span class="player-tag">#9QG0U8YCQ</span>
+                            </div>
+                            <span class="role-badge elder">elder</span>
+                        </div>
+                        <div class="player-stats">
+                            <div class="stat-item">
+                                <span class="stat-label">🏆</span>
+                                <span class="stat-value">10000</span>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-label">🎁</span>
+                                <span class="stat-value">219</span>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-label">⚔️</span>
+                                <span class="stat-value">2290</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="leaderboard-item "
+                        data-trophies="10000" data-donations="62"
+                        data-war="720">
+                        <div class="rank-display">
+                            
+                            <span class="rank-number">13</span>
+                            
+                        </div>
+                        <div class="player-details">
+                            <div class="player-name">
+                                <strong>MJK⚡️SPARKY</strong>
+                                <span class="player-tag">#22CGYQ2UP</span>
+                            </div>
+                            <span class="role-badge elder">elder</span>
+                        </div>
+                        <div class="player-stats">
+                            <div class="stat-item">
+                                <span class="stat-label">🏆</span>
+                                <span class="stat-value">10000</span>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-label">🎁</span>
+                                <span class="stat-value">62</span>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-label">⚔️</span>
+                                <span class="stat-value">720</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="leaderboard-item "
+                        data-trophies="10000" data-donations="74"
+                        data-war="840">
+                        <div class="rank-display">
+                            
+                            <span class="rank-number">14</span>
+                            
+                        </div>
+                        <div class="player-details">
+                            <div class="player-name">
+                                <strong>antedeguemon</strong>
+                                <span class="player-tag">#208JPG9R</span>
+                            </div>
+                            <span class="role-badge elder">elder</span>
+                        </div>
+                        <div class="player-stats">
+                            <div class="stat-item">
+                                <span class="stat-label">🏆</span>
+                                <span class="stat-value">10000</span>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-label">🎁</span>
+                                <span class="stat-value">74</span>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-label">⚔️</span>
+                                <span class="stat-value">840</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="leaderboard-item "
+                        data-trophies="10000" data-donations="304"
+                        data-war="3140">
+                        <div class="rank-display">
+                            
+                            <span class="rank-number">15</span>
+                            
+                        </div>
+                        <div class="player-details">
+                            <div class="player-name">
+                                <strong>AUGUSTO</strong>
+                                <span class="player-tag">#VLYU9Y2Y</span>
+                            </div>
+                            <span class="role-badge member">member</span>
+                        </div>
+                        <div class="player-stats">
+                            <div class="stat-item">
+                                <span class="stat-label">🏆</span>
+                                <span class="stat-value">10000</span>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-label">🎁</span>
+                                <span class="stat-value">304</span>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-label">⚔️</span>
+                                <span class="stat-value">3140</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="leaderboard-item "
+                        data-trophies="10000" data-donations="53"
+                        data-war="630">
+                        <div class="rank-display">
+                            
+                            <span class="rank-number">16</span>
+                            
+                        </div>
+                        <div class="player-details">
+                            <div class="player-name">
+                                <strong>Dockz</strong>
+                                <span class="player-tag">#YJUG9Y88</span>
+                            </div>
+                            <span class="role-badge elder">elder</span>
+                        </div>
+                        <div class="player-stats">
+                            <div class="stat-item">
+                                <span class="stat-label">🏆</span>
+                                <span class="stat-value">10000</span>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-label">🎁</span>
+                                <span class="stat-value">53</span>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-label">⚔️</span>
+                                <span class="stat-value">630</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="leaderboard-item "
+                        data-trophies="10000" data-donations="94"
+                        data-war="1040">
+                        <div class="rank-display">
+                            
+                            <span class="rank-number">17</span>
+                            
+                        </div>
+                        <div class="player-details">
+                            <div class="player-name">
+                                <strong>51 é pinga</strong>
+                                <span class="player-tag">#UJRLJY0L2</span>
+                            </div>
+                            <span class="role-badge coLeader">coLeader</span>
+                        </div>
+                        <div class="player-stats">
+                            <div class="stat-item">
+                                <span class="stat-label">🏆</span>
+                                <span class="stat-value">10000</span>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-label">🎁</span>
+                                <span class="stat-value">94</span>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-label">⚔️</span>
+                                <span class="stat-value">1040</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="leaderboard-item "
+                        data-trophies="10000" data-donations="96"
+                        data-war="1060">
+                        <div class="rank-display">
+                            
+                            <span class="rank-number">18</span>
+                            
+                        </div>
+                        <div class="player-details">
+                            <div class="player-name">
+                                <strong>ZackThunder</strong>
+                                <span class="player-tag">#R9UP0QLR9</span>
+                            </div>
+                            <span class="role-badge elder">elder</span>
+                        </div>
+                        <div class="player-stats">
+                            <div class="stat-item">
+                                <span class="stat-label">🏆</span>
+                                <span class="stat-value">10000</span>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-label">🎁</span>
+                                <span class="stat-value">96</span>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-label">⚔️</span>
+                                <span class="stat-value">1060</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="leaderboard-item "
+                        data-trophies="10000" data-donations="195"
+                        data-war="2050">
+                        <div class="rank-display">
+                            
+                            <span class="rank-number">19</span>
+                            
+                        </div>
+                        <div class="player-details">
+                            <div class="player-name">
+                                <strong>tavin</strong>
+                                <span class="player-tag">#U8VP8L8L0</span>
+                            </div>
+                            <span class="role-badge elder">elder</span>
+                        </div>
+                        <div class="player-stats">
+                            <div class="stat-item">
+                                <span class="stat-label">🏆</span>
+                                <span class="stat-value">10000</span>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-label">🎁</span>
+                                <span class="stat-value">195</span>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-label">⚔️</span>
+                                <span class="stat-value">2050</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="leaderboard-item "
+                        data-trophies="10000" data-donations="0"
+                        data-war="100">
+                        <div class="rank-display">
+                            
+                            <span class="rank-number">20</span>
+                            
+                        </div>
+                        <div class="player-details">
+                            <div class="player-name">
+                                <strong>ArthurNoSkill●</strong>
+                                <span class="player-tag">#9PLVLLVR2</span>
+                            </div>
+                            <span class="role-badge member">member</span>
+                        </div>
+                        <div class="player-stats">
+                            <div class="stat-item">
+                                <span class="stat-label">🏆</span>
+                                <span class="stat-value">10000</span>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-label">🎁</span>
+                                <span class="stat-value">0</span>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-label">⚔️</span>
+                                <span class="stat-value">100</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="leaderboard-item "
+                        data-trophies="10000" data-donations="150"
+                        data-war="1600">
+                        <div class="rank-display">
+                            
+                            <span class="rank-number">21</span>
+                            
+                        </div>
+                        <div class="player-details">
+                            <div class="player-name">
+                                <strong>EDDIE</strong>
+                                <span class="player-tag">#2VLR9U90</span>
+                            </div>
+                            <span class="role-badge coLeader">coLeader</span>
+                        </div>
+                        <div class="player-stats">
+                            <div class="stat-item">
+                                <span class="stat-label">🏆</span>
+                                <span class="stat-value">10000</span>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-label">🎁</span>
+                                <span class="stat-value">150</span>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-label">⚔️</span>
+                                <span class="stat-value">1600</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="leaderboard-item "
+                        data-trophies="10000" data-donations="0"
+                        data-war="100">
+                        <div class="rank-display">
+                            
+                            <span class="rank-number">22</span>
+                            
+                        </div>
+                        <div class="player-details">
+                            <div class="player-name">
+                                <strong>Zenitsu愛</strong>
+                                <span class="player-tag">#8C8RY8GL9</span>
+                            </div>
+                            <span class="role-badge coLeader">coLeader</span>
+                        </div>
+                        <div class="player-stats">
+                            <div class="stat-item">
+                                <span class="stat-label">🏆</span>
+                                <span class="stat-value">10000</span>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-label">🎁</span>
+                                <span class="stat-value">0</span>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-label">⚔️</span>
+                                <span class="stat-value">100</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="leaderboard-item "
+                        data-trophies="10000" data-donations="54"
+                        data-war="640">
+                        <div class="rank-display">
+                            
+                            <span class="rank-number">23</span>
+                            
+                        </div>
+                        <div class="player-details">
+                            <div class="player-name">
+                                <strong>gabiggoughost</strong>
+                                <span class="player-tag">#V9PCU0LCV</span>
+                            </div>
+                            <span class="role-badge coLeader">coLeader</span>
+                        </div>
+                        <div class="player-stats">
+                            <div class="stat-item">
+                                <span class="stat-label">🏆</span>
+                                <span class="stat-value">10000</span>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-label">🎁</span>
+                                <span class="stat-value">54</span>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-label">⚔️</span>
+                                <span class="stat-value">640</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="leaderboard-item "
+                        data-trophies="10000" data-donations="26"
+                        data-war="360">
+                        <div class="rank-display">
+                            
+                            <span class="rank-number">24</span>
+                            
+                        </div>
+                        <div class="player-details">
+                            <div class="player-name">
+                                <strong>Reus</strong>
+                                <span class="player-tag">#R29QRVQGU</span>
+                            </div>
+                            <span class="role-badge member">member</span>
+                        </div>
+                        <div class="player-stats">
+                            <div class="stat-item">
+                                <span class="stat-label">🏆</span>
+                                <span class="stat-value">10000</span>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-label">🎁</span>
+                                <span class="stat-value">26</span>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-label">⚔️</span>
+                                <span class="stat-value">360</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="leaderboard-item "
+                        data-trophies="10000" data-donations="8"
+                        data-war="180">
+                        <div class="rank-display">
+                            
+                            <span class="rank-number">25</span>
+                            
+                        </div>
+                        <div class="player-details">
+                            <div class="player-name">
+                                <strong>Mila</strong>
+                                <span class="player-tag">#90U8CVP90</span>
+                            </div>
+                            <span class="role-badge coLeader">coLeader</span>
+                        </div>
+                        <div class="player-stats">
+                            <div class="stat-item">
+                                <span class="stat-label">🏆</span>
+                                <span class="stat-value">10000</span>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-label">🎁</span>
+                                <span class="stat-value">8</span>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-label">⚔️</span>
+                                <span class="stat-value">180</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="leaderboard-item "
+                        data-trophies="10000" data-donations="128"
+                        data-war="1380">
+                        <div class="rank-display">
+                            
+                            <span class="rank-number">26</span>
+                            
+                        </div>
+                        <div class="player-details">
+                            <div class="player-name">
+                                <strong>Sotto ツ</strong>
+                                <span class="player-tag">#2P299V0CU</span>
+                            </div>
+                            <span class="role-badge member">member</span>
+                        </div>
+                        <div class="player-stats">
+                            <div class="stat-item">
+                                <span class="stat-label">🏆</span>
+                                <span class="stat-value">10000</span>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-label">🎁</span>
+                                <span class="stat-value">128</span>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-label">⚔️</span>
+                                <span class="stat-value">1380</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="leaderboard-item "
+                        data-trophies="10000" data-donations="38"
+                        data-war="480">
+                        <div class="rank-display">
+                            
+                            <span class="rank-number">27</span>
+                            
+                        </div>
+                        <div class="player-details">
+                            <div class="player-name">
+                                <strong>MegaJoaoReal</strong>
+                                <span class="player-tag">#RUQ90VLVP</span>
+                            </div>
+                            <span class="role-badge member">member</span>
+                        </div>
+                        <div class="player-stats">
+                            <div class="stat-item">
+                                <span class="stat-label">🏆</span>
+                                <span class="stat-value">10000</span>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-label">🎁</span>
+                                <span class="stat-value">38</span>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-label">⚔️</span>
+                                <span class="stat-value">480</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="leaderboard-item "
+                        data-trophies="10000" data-donations="26"
+                        data-war="360">
+                        <div class="rank-display">
+                            
+                            <span class="rank-number">28</span>
+                            
+                        </div>
+                        <div class="player-details">
+                            <div class="player-name">
+                                <strong>Daniele❤</strong>
+                                <span class="player-tag">#8R2LRC80Q</span>
+                            </div>
+                            <span class="role-badge elder">elder</span>
+                        </div>
+                        <div class="player-stats">
+                            <div class="stat-item">
+                                <span class="stat-label">🏆</span>
+                                <span class="stat-value">10000</span>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-label">🎁</span>
+                                <span class="stat-value">26</span>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-label">⚔️</span>
+                                <span class="stat-value">360</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="leaderboard-item "
+                        data-trophies="10000" data-donations="0"
+                        data-war="100">
+                        <div class="rank-display">
+                            
+                            <span class="rank-number">29</span>
+                            
+                        </div>
+                        <div class="player-details">
+                            <div class="player-name">
+                                <strong>luba</strong>
+                                <span class="player-tag">#PQV9QQRQ0</span>
+                            </div>
+                            <span class="role-badge coLeader">coLeader</span>
+                        </div>
+                        <div class="player-stats">
+                            <div class="stat-item">
+                                <span class="stat-label">🏆</span>
+                                <span class="stat-value">10000</span>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-label">🎁</span>
+                                <span class="stat-value">0</span>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-label">⚔️</span>
+                                <span class="stat-value">100</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="leaderboard-item "
+                        data-trophies="9659" data-donations="68"
+                        data-war="776">
+                        <div class="rank-display">
+                            
+                            <span class="rank-number">30</span>
+                            
+                        </div>
+                        <div class="player-details">
+                            <div class="player-name">
+                                <strong>andrebts</strong>
+                                <span class="player-tag">#VUQ0PV8PV</span>
+                            </div>
+                            <span class="role-badge coLeader">coLeader</span>
+                        </div>
+                        <div class="player-stats">
+                            <div class="stat-item">
+                                <span class="stat-label">🏆</span>
+                                <span class="stat-value">9659</span>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-label">🎁</span>
+                                <span class="stat-value">68</span>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-label">⚔️</span>
+                                <span class="stat-value">776</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="leaderboard-item "
+                        data-trophies="9618" data-donations="50"
+                        data-war="596">
+                        <div class="rank-display">
+                            
+                            <span class="rank-number">31</span>
+                            
+                        </div>
+                        <div class="player-details">
+                            <div class="player-name">
+                                <strong>super</strong>
+                                <span class="player-tag">#UU0RCRLQU</span>
+                            </div>
+                            <span class="role-badge elder">elder</span>
+                        </div>
+                        <div class="player-stats">
+                            <div class="stat-item">
+                                <span class="stat-label">🏆</span>
+                                <span class="stat-value">9618</span>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-label">🎁</span>
+                                <span class="stat-value">50</span>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-label">⚔️</span>
+                                <span class="stat-value">596</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="leaderboard-item "
+                        data-trophies="9589" data-donations="42"
+                        data-war="515">
+                        <div class="rank-display">
+                            
+                            <span class="rank-number">32</span>
+                            
+                        </div>
+                        <div class="player-details">
+                            <div class="player-name">
+                                <strong>Sasuke</strong>
+                                <span class="player-tag">#Q8098VGG</span>
+                            </div>
+                            <span class="role-badge elder">elder</span>
+                        </div>
+                        <div class="player-stats">
+                            <div class="stat-item">
+                                <span class="stat-label">🏆</span>
+                                <span class="stat-value">9589</span>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-label">🎁</span>
+                                <span class="stat-value">42</span>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-label">⚔️</span>
+                                <span class="stat-value">515</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="leaderboard-item "
+                        data-trophies="9508" data-donations="60"
+                        data-war="695">
+                        <div class="rank-display">
+                            
+                            <span class="rank-number">33</span>
+                            
+                        </div>
+                        <div class="player-details">
+                            <div class="player-name">
+                                <strong>carlos Daniel</strong>
+                                <span class="player-tag">#8CVU0PP00</span>
+                            </div>
+                            <span class="role-badge elder">elder</span>
+                        </div>
+                        <div class="player-stats">
+                            <div class="stat-item">
+                                <span class="stat-label">🏆</span>
+                                <span class="stat-value">9508</span>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-label">🎁</span>
+                                <span class="stat-value">60</span>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-label">⚔️</span>
+                                <span class="stat-value">695</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="leaderboard-item "
+                        data-trophies="9419" data-donations="86"
+                        data-war="954">
+                        <div class="rank-display">
+                            
+                            <span class="rank-number">34</span>
+                            
+                        </div>
+                        <div class="player-details">
+                            <div class="player-name">
+                                <strong>Gustavo Clash</strong>
+                                <span class="player-tag">#28PQJJU2G</span>
+                            </div>
+                            <span class="role-badge coLeader">coLeader</span>
+                        </div>
+                        <div class="player-stats">
+                            <div class="stat-item">
+                                <span class="stat-label">🏆</span>
+                                <span class="stat-value">9419</span>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-label">🎁</span>
+                                <span class="stat-value">86</span>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-label">⚔️</span>
+                                <span class="stat-value">954</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="leaderboard-item "
+                        data-trophies="9360" data-donations="174"
+                        data-war="1833">
+                        <div class="rank-display">
+                            
+                            <span class="rank-number">35</span>
+                            
+                        </div>
+                        <div class="player-details">
+                            <div class="player-name">
+                                <strong>domador de but</strong>
+                                <span class="player-tag">#GRY890GY2</span>
+                            </div>
+                            <span class="role-badge coLeader">coLeader</span>
+                        </div>
+                        <div class="player-stats">
+                            <div class="stat-item">
+                                <span class="stat-label">🏆</span>
+                                <span class="stat-value">9360</span>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-label">🎁</span>
+                                <span class="stat-value">174</span>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-label">⚔️</span>
+                                <span class="stat-value">1833</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="leaderboard-item "
+                        data-trophies="9305" data-donations="152"
+                        data-war="1613">
+                        <div class="rank-display">
+                            
+                            <span class="rank-number">36</span>
+                            
+                        </div>
+                        <div class="player-details">
+                            <div class="player-name">
+                                <strong>O GUARDIÃO</strong>
+                                <span class="player-tag">#UJRQ2L09</span>
+                            </div>
+                            <span class="role-badge leader">leader</span>
+                        </div>
+                        <div class="player-stats">
+                            <div class="stat-item">
+                                <span class="stat-label">🏆</span>
+                                <span class="stat-value">9305</span>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-label">🎁</span>
+                                <span class="stat-value">152</span>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-label">⚔️</span>
+                                <span class="stat-value">1613</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="leaderboard-item "
+                        data-trophies="9244" data-donations="0"
+                        data-war="92">
+                        <div class="rank-display">
+                            
+                            <span class="rank-number">37</span>
+                            
+                        </div>
+                        <div class="player-details">
+                            <div class="player-name">
+                                <strong>Rodolfos</strong>
+                                <span class="player-tag">#200JYCVYGY</span>
+                            </div>
+                            <span class="role-badge coLeader">coLeader</span>
+                        </div>
+                        <div class="player-stats">
+                            <div class="stat-item">
+                                <span class="stat-label">🏆</span>
+                                <span class="stat-value">9244</span>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-label">🎁</span>
+                                <span class="stat-value">0</span>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-label">⚔️</span>
+                                <span class="stat-value">92</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="leaderboard-item "
+                        data-trophies="9242" data-donations="236"
+                        data-war="2452">
+                        <div class="rank-display">
+                            
+                            <span class="rank-number">38</span>
+                            
+                        </div>
+                        <div class="player-details">
+                            <div class="player-name">
+                                <strong>Luciano</strong>
+                                <span class="player-tag">#LVGCLQQ8L</span>
+                            </div>
+                            <span class="role-badge elder">elder</span>
+                        </div>
+                        <div class="player-stats">
+                            <div class="stat-item">
+                                <span class="stat-label">🏆</span>
+                                <span class="stat-value">9242</span>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-label">🎁</span>
+                                <span class="stat-value">236</span>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-label">⚔️</span>
+                                <span class="stat-value">2452</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="leaderboard-item "
+                        data-trophies="9101" data-donations="8"
+                        data-war="171">
+                        <div class="rank-display">
+                            
+                            <span class="rank-number">39</span>
+                            
+                        </div>
+                        <div class="player-details">
+                            <div class="player-name">
+                                <strong>yNoobZy</strong>
+                                <span class="player-tag">#C9PY8URJQ</span>
+                            </div>
+                            <span class="role-badge elder">elder</span>
+                        </div>
+                        <div class="player-stats">
+                            <div class="stat-item">
+                                <span class="stat-label">🏆</span>
+                                <span class="stat-value">9101</span>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-label">🎁</span>
+                                <span class="stat-value">8</span>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-label">⚔️</span>
+                                <span class="stat-value">171</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="leaderboard-item "
+                        data-trophies="9000" data-donations="8"
+                        data-war="170">
+                        <div class="rank-display">
+                            
+                            <span class="rank-number">40</span>
+                            
+                        </div>
+                        <div class="player-details">
+                            <div class="player-name">
+                                <strong>Alvaro</strong>
+                                <span class="player-tag">#8JULVVL0J</span>
+                            </div>
+                            <span class="role-badge coLeader">coLeader</span>
+                        </div>
+                        <div class="player-stats">
+                            <div class="stat-item">
+                                <span class="stat-label">🏆</span>
+                                <span class="stat-value">9000</span>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-label">🎁</span>
+                                <span class="stat-value">8</span>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-label">⚔️</span>
+                                <span class="stat-value">170</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="leaderboard-item "
+                        data-trophies="8724" data-donations="44"
+                        data-war="527">
+                        <div class="rank-display">
+                            
+                            <span class="rank-number">41</span>
+                            
+                        </div>
+                        <div class="player-details">
+                            <div class="player-name">
+                                <strong>NEGUIM244</strong>
+                                <span class="player-tag">#PYVJVURP0</span>
+                            </div>
+                            <span class="role-badge member">member</span>
+                        </div>
+                        <div class="player-stats">
+                            <div class="stat-item">
+                                <span class="stat-label">🏆</span>
+                                <span class="stat-value">8724</span>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-label">🎁</span>
+                                <span class="stat-value">44</span>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-label">⚔️</span>
+                                <span class="stat-value">527</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="leaderboard-item "
+                        data-trophies="8630" data-donations="336"
+                        data-war="3446">
+                        <div class="rank-display">
+                            
+                            <span class="rank-number">42</span>
+                            
+                        </div>
+                        <div class="player-details">
+                            <div class="player-name">
+                                <strong>petrus</strong>
+                                <span class="player-tag">#88U9PLGVV</span>
+                            </div>
+                            <span class="role-badge member">member</span>
+                        </div>
+                        <div class="player-stats">
+                            <div class="stat-item">
+                                <span class="stat-label">🏆</span>
+                                <span class="stat-value">8630</span>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-label">🎁</span>
+                                <span class="stat-value">336</span>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-label">⚔️</span>
+                                <span class="stat-value">3446</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="leaderboard-item "
+                        data-trophies="8624" data-donations="0"
+                        data-war="86">
+                        <div class="rank-display">
+                            
+                            <span class="rank-number">43</span>
+                            
+                        </div>
+                        <div class="player-details">
+                            <div class="player-name">
+                                <strong>polaris</strong>
+                                <span class="player-tag">#PCPCJU20Y</span>
+                            </div>
+                            <span class="role-badge elder">elder</span>
+                        </div>
+                        <div class="player-stats">
+                            <div class="stat-item">
+                                <span class="stat-label">🏆</span>
+                                <span class="stat-value">8624</span>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-label">🎁</span>
+                                <span class="stat-value">0</span>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-label">⚔️</span>
+                                <span class="stat-value">86</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="leaderboard-item "
+                        data-trophies="8583" data-donations="34"
+                        data-war="425">
+                        <div class="rank-display">
+                            
+                            <span class="rank-number">44</span>
+                            
+                        </div>
+                        <div class="player-details">
+                            <div class="player-name">
+                                <strong>isp</strong>
+                                <span class="player-tag">#C8C20C0JQ</span>
+                            </div>
+                            <span class="role-badge elder">elder</span>
+                        </div>
+                        <div class="player-stats">
+                            <div class="stat-item">
+                                <span class="stat-label">🏆</span>
+                                <span class="stat-value">8583</span>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-label">🎁</span>
+                                <span class="stat-value">34</span>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-label">⚔️</span>
+                                <span class="stat-value">425</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="leaderboard-item "
+                        data-trophies="8530" data-donations="0"
+                        data-war="85">
+                        <div class="rank-display">
+                            
+                            <span class="rank-number">45</span>
+                            
+                        </div>
+                        <div class="player-details">
+                            <div class="player-name">
+                                <strong>luisinn7</strong>
+                                <span class="player-tag">#9PCQY89PV</span>
+                            </div>
+                            <span class="role-badge coLeader">coLeader</span>
+                        </div>
+                        <div class="player-stats">
+                            <div class="stat-item">
+                                <span class="stat-label">🏆</span>
+                                <span class="stat-value">8530</span>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-label">🎁</span>
+                                <span class="stat-value">0</span>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-label">⚔️</span>
+                                <span class="stat-value">85</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="leaderboard-item "
+                        data-trophies="8448" data-donations="70"
+                        data-war="784">
+                        <div class="rank-display">
+                            
+                            <span class="rank-number">46</span>
+                            
+                        </div>
+                        <div class="player-details">
+                            <div class="player-name">
+                                <strong>OneDePrata</strong>
+                                <span class="player-tag">#LYL9CU0P0</span>
+                            </div>
+                            <span class="role-badge coLeader">coLeader</span>
+                        </div>
+                        <div class="player-stats">
+                            <div class="stat-item">
+                                <span class="stat-label">🏆</span>
+                                <span class="stat-value">8448</span>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-label">🎁</span>
+                                <span class="stat-value">70</span>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-label">⚔️</span>
+                                <span class="stat-value">784</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="leaderboard-item "
+                        data-trophies="8088" data-donations="430"
+                        data-war="4380">
+                        <div class="rank-display">
+                            
+                            <span class="rank-number">47</span>
+                            
+                        </div>
+                        <div class="player-details">
+                            <div class="player-name">
+                                <strong>santsx777</strong>
+                                <span class="player-tag">#C8G9JJL89</span>
+                            </div>
+                            <span class="role-badge elder">elder</span>
+                        </div>
+                        <div class="player-stats">
+                            <div class="stat-item">
+                                <span class="stat-label">🏆</span>
+                                <span class="stat-value">8088</span>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-label">🎁</span>
+                                <span class="stat-value">430</span>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-label">⚔️</span>
+                                <span class="stat-value">4380</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="leaderboard-item "
+                        data-trophies="8050" data-donations="28"
+                        data-war="360">
+                        <div class="rank-display">
+                            
+                            <span class="rank-number">48</span>
+                            
+                        </div>
+                        <div class="player-details">
+                            <div class="player-name">
+                                <strong>H A R D's</strong>
+                                <span class="player-tag">#PVJULCYQQ</span>
+                            </div>
+                            <span class="role-badge elder">elder</span>
+                        </div>
+                        <div class="player-stats">
+                            <div class="stat-item">
+                                <span class="stat-label">🏆</span>
+                                <span class="stat-value">8050</span>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-label">🎁</span>
+                                <span class="stat-value">28</span>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-label">⚔️</span>
+                                <span class="stat-value">360</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="leaderboard-item "
+                        data-trophies="8028" data-donations="26"
+                        data-war="340">
+                        <div class="rank-display">
+                            
+                            <span class="rank-number">49</span>
+                            
+                        </div>
+                        <div class="player-details">
+                            <div class="player-name">
+                                <strong>⭐O SENTINELA ⭐</strong>
+                                <span class="player-tag">#99PJ9QQPC</span>
+                            </div>
+                            <span class="role-badge coLeader">coLeader</span>
+                        </div>
+                        <div class="player-stats">
+                            <div class="stat-item">
+                                <span class="stat-label">🏆</span>
+                                <span class="stat-value">8028</span>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-label">🎁</span>
+                                <span class="stat-value">26</span>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-label">⚔️</span>
+                                <span class="stat-value">340</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="leaderboard-item "
+                        data-trophies="7316" data-donations="0"
+                        data-war="73">
+                        <div class="rank-display">
+                            
+                            <span class="rank-number">50</span>
+                            
+                        </div>
+                        <div class="player-details">
+                            <div class="player-name">
+                                <strong>DGJ-DAVI</strong>
+                                <span class="player-tag">#9RPCC2VCG</span>
+                            </div>
+                            <span class="role-badge elder">elder</span>
+                        </div>
+                        <div class="player-stats">
+                            <div class="stat-item">
+                                <span class="stat-label">🏆</span>
+                                <span class="stat-value">7316</span>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-label">🎁</span>
+                                <span class="stat-value">0</span>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-label">⚔️</span>
+                                <span class="stat-value">73</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+            </section>
+
+            <!-- Botão Exportação -->
+            <section class="export-section">
+                <button onclick="exportToPDF()" class="btn-export">
+                    📄 Exportar Ranking PDF
+                </button>
+            </section>
+        </main>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf-autotable/3.5.31/jspdf.plugin.autotable.min.js"></script>
+    <script src="static/ranking.js"></script>
+    <script src="static/export-pdf.js"></script>
+</body>
+
+</html>
