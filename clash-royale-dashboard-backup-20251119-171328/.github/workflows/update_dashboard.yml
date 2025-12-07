@@ -1,8 +1,6 @@
 name: Update Dashboard
 
 on:
-  schedule:
-    - cron: '0 */6 * * *' # Run every 6 hours
   workflow_dispatch:      # Allow manual trigger
   push:
     branches:
