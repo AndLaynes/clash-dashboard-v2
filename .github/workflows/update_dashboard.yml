@@ -7,6 +7,8 @@ on:
   push:
     branches:
       - main
+    paths:
+      - 'clash-royale-dashboard-backup-20251119-171328/**'
 
 permissions:
   contents: write
@@ -32,12 +34,13 @@ jobs:
         env:
           CR_API_KEY: ${{ secrets.CR_API_KEY }}
         run: |
+          cd clash-royale-dashboard-backup-20251119-171328
           python main.py
 
       - name: Commit and Push changes
         run: |
           git config --global user.name 'github-actions[bot]'
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
-          git add *.html data/*.json
+          git add clash-royale-dashboard-backup-20251119-171328/*.html clash-royale-dashboard-backup-20251119-171328/data/*.json
           git commit -m "Auto-update dashboard (audit & data)" || exit 0
           git push
