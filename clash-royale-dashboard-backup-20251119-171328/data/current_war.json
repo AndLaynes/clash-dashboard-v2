@@ -758,15 +758,6 @@
                     "decksUsedToday": 4
                 },
                 {
-                    "tag": "#CGVQVPGP",
-                    "name": "sinu",
-                    "fame": 1500,
-                    "repairPoints": 0,
-                    "boatAttacks": 0,
-                    "decksUsed": 8,
-                    "decksUsedToday": 0
-                },
-                {
                     "tag": "#8G0GUCRJ9",
                     "name": "hjjhggf",
                     "fame": 1550,
@@ -875,6 +866,15 @@
                     "decksUsedToday": 4
                 },
                 {
+                    "tag": "#CGVQVPGP",
+                    "name": "sinu",
+                    "fame": 2050,
+                    "repairPoints": 0,
+                    "boatAttacks": 0,
+                    "decksUsed": 12,
+                    "decksUsedToday": 4
+                },
+                {
                     "tag": "#ULL9UGVR8",
                     "name": "javier",
                     "fame": 2100,
@@ -956,7 +956,7 @@
                     "decksUsedToday": 4
                 }
             ],
-            "periodPoints": 22625,
+            "periodPoints": 23175,
             "clanScore": 3150
         },
         {
@@ -1120,15 +1120,6 @@
                     "decksUsedToday": 0
                 },
                 {
-                    "tag": "#2P9G0QPPY",
-                    "name": "Likoz ⛩️",
-                    "fame": 900,
-                    "repairPoints": 0,
-                    "boatAttacks": 0,
-                    "decksUsed": 8,
-                    "decksUsedToday": 0
-                },
-                {
                     "tag": "#9RVUG8QU2",
                     "name": "Kamoulox",
                     "fame": 900,
@@ -1199,6 +1190,15 @@
                     "boatAttacks": 0,
                     "decksUsed": 8,
                     "decksUsedToday": 4
+                },
+                {
+                    "tag": "#2P9G0QPPY",
+                    "name": "Likoz ⛩️",
+                    "fame": 1400,
+                    "repairPoints": 0,
+                    "boatAttacks": 0,
+                    "decksUsed": 11,
+                    "decksUsedToday": 3
                 },
                 {
                     "tag": "#202RR0RJQY",
@@ -1498,7 +1498,7 @@
                     "decksUsedToday": 4
                 }
             ],
-            "periodPoints": 21775,
+            "periodPoints": 22275,
             "clanScore": 3172
         },
         {
@@ -1574,6 +1574,15 @@
                 {
                     "tag": "#LCQ9C90QY",
                     "name": "Clasher",
+                    "fame": 0,
+                    "repairPoints": 0,
+                    "boatAttacks": 0,
+                    "decksUsed": 0,
+                    "decksUsedToday": 0
+                },
+                {
+                    "tag": "#C8RLV9J02",
+                    "name": "deez nutsz",
                     "fame": 0,
                     "repairPoints": 0,
                     "boatAttacks": 0,
@@ -2611,6 +2620,15 @@
                     "decksUsedToday": 0
                 },
                 {
+                    "tag": "#U9G2CJCR0",
+                    "name": "Калыван",
+                    "fame": 0,
+                    "repairPoints": 0,
+                    "boatAttacks": 0,
+                    "decksUsed": 0,
+                    "decksUsedToday": 0
+                },
+                {
                     "tag": "#9CRYQ0PJG",
                     "name": "Gladiator_",
                     "fame": 0,
@@ -2818,15 +2836,6 @@
                     "decksUsedToday": 4
                 },
                 {
-                    "tag": "#UVYGGQ9G0",
-                    "name": "Jamil Lamil",
-                    "fame": 1600,
-                    "repairPoints": 0,
-                    "boatAttacks": 0,
-                    "decksUsed": 11,
-                    "decksUsedToday": 3
-                },
-                {
                     "tag": "#J890UUR8C",
                     "name": "Bl3an3k",
                     "fame": 1600,
@@ -2888,6 +2897,15 @@
                     "boatAttacks": 0,
                     "decksUsed": 11,
                     "decksUsedToday": 3
+                },
+                {
+                    "tag": "#UVYGGQ9G0",
+                    "name": "Jamil Lamil",
+                    "fame": 1800,
+                    "repairPoints": 0,
+                    "boatAttacks": 0,
+                    "decksUsed": 12,
+                    "decksUsedToday": 4
                 },
                 {
                     "tag": "#CPP9JGLRJ",
@@ -3061,7 +3079,7 @@
                     "decksUsedToday": 4
                 }
             ],
-            "periodPoints": 24650,
+            "periodPoints": 24850,
             "clanScore": 3180
         }
     ],

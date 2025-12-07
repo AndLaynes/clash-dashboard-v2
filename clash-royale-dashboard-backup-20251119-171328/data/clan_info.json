@@ -4,7 +4,7 @@
     "type": "open",
     "description": "Seja bem vindo(a) Clã focado em guerras, 1 dia sem atacar é expulsão ! Dias de guerra são de toda quinta a domingo. Vamoos !! 🥇",
     "badgeId": 16000058,
-    "clanScore": 101325,
+    "clanScore": 101327,
     "clanWarTrophies": 3167,
     "location": {
         "id": 57000038,
@@ -13,7 +13,7 @@
         "countryCode": "BR"
     },
     "requiredTrophies": 10000,
-    "donationsPerWeek": 12762,
+    "donationsPerWeek": 12782,
     "clanChestStatus": "inactive",
     "clanChestLevel": 1,
     "clanChestMaxLevel": 0,
@@ -28,7 +28,8 @@
             "trophies": 10654,
             "arena": {
                 "id": 54000130,
-                "name": "Royal Road"
+                "name": "Royal Road",
+                "rawName": "Arena_L12"
             },
             "clanRank": 1,
             "previousClanRank": 1,
@@ -45,7 +46,8 @@
             "trophies": 10609,
             "arena": {
                 "id": 54000130,
-                "name": "Royal Road"
+                "name": "Royal Road",
+                "rawName": "Arena_L12"
             },
             "clanRank": 2,
             "previousClanRank": 2,
@@ -62,7 +64,8 @@
             "trophies": 10411,
             "arena": {
                 "id": 54000117,
-                "name": "Lumberlove Cabin"
+                "name": "Lumberlove Cabin",
+                "rawName": "Arena_L11"
             },
             "clanRank": 3,
             "previousClanRank": 3,
@@ -79,7 +82,8 @@
             "trophies": 10327,
             "arena": {
                 "id": 54000117,
-                "name": "Lumberlove Cabin"
+                "name": "Lumberlove Cabin",
+                "rawName": "Arena_L11"
             },
             "clanRank": 4,
             "previousClanRank": 4,
@@ -96,7 +100,8 @@
             "trophies": 10297,
             "arena": {
                 "id": 54000117,
-                "name": "Lumberlove Cabin"
+                "name": "Lumberlove Cabin",
+                "rawName": "Arena_L11"
             },
             "clanRank": 5,
             "previousClanRank": 5,
@@ -113,7 +118,8 @@
             "trophies": 10295,
             "arena": {
                 "id": 54000117,
-                "name": "Lumberlove Cabin"
+                "name": "Lumberlove Cabin",
+                "rawName": "Arena_L11"
             },
             "clanRank": 6,
             "previousClanRank": 6,
@@ -130,7 +136,8 @@
             "trophies": 10270,
             "arena": {
                 "id": 54000117,
-                "name": "Lumberlove Cabin"
+                "name": "Lumberlove Cabin",
+                "rawName": "Arena_L11"
             },
             "clanRank": 7,
             "previousClanRank": 7,
@@ -147,7 +154,8 @@
             "trophies": 10268,
             "arena": {
                 "id": 54000117,
-                "name": "Lumberlove Cabin"
+                "name": "Lumberlove Cabin",
+                "rawName": "Arena_L11"
             },
             "clanRank": 8,
             "previousClanRank": 12,
@@ -164,7 +172,8 @@
             "trophies": 10265,
             "arena": {
                 "id": 54000117,
-                "name": "Lumberlove Cabin"
+                "name": "Lumberlove Cabin",
+                "rawName": "Arena_L11"
             },
             "clanRank": 9,
             "previousClanRank": 8,
@@ -181,7 +190,8 @@
             "trophies": 10263,
             "arena": {
                 "id": 54000117,
-                "name": "Lumberlove Cabin"
+                "name": "Lumberlove Cabin",
+                "rawName": "Arena_L11"
             },
             "clanRank": 10,
             "previousClanRank": 21,
@@ -198,7 +208,8 @@
             "trophies": 10238,
             "arena": {
                 "id": 54000117,
-                "name": "Lumberlove Cabin"
+                "name": "Lumberlove Cabin",
+                "rawName": "Arena_L11"
             },
             "clanRank": 11,
             "previousClanRank": 17,
@@ -215,7 +226,8 @@
             "trophies": 10237,
             "arena": {
                 "id": 54000117,
-                "name": "Lumberlove Cabin"
+                "name": "Lumberlove Cabin",
+                "rawName": "Arena_L11"
             },
             "clanRank": 12,
             "previousClanRank": 10,
@@ -232,7 +244,8 @@
             "trophies": 10208,
             "arena": {
                 "id": 54000117,
-                "name": "Lumberlove Cabin"
+                "name": "Lumberlove Cabin",
+                "rawName": "Arena_L11"
             },
             "clanRank": 13,
             "previousClanRank": 20,
@@ -249,7 +262,8 @@
             "trophies": 10208,
             "arena": {
                 "id": 54000117,
-                "name": "Lumberlove Cabin"
+                "name": "Lumberlove Cabin",
+                "rawName": "Arena_L11"
             },
             "clanRank": 14,
             "previousClanRank": 11,
@@ -266,7 +280,8 @@
             "trophies": 10206,
             "arena": {
                 "id": 54000117,
-                "name": "Lumberlove Cabin"
+                "name": "Lumberlove Cabin",
+                "rawName": "Arena_L11"
             },
             "clanRank": 15,
             "previousClanRank": 13,
@@ -283,7 +298,8 @@
             "trophies": 10205,
             "arena": {
                 "id": 54000117,
-                "name": "Lumberlove Cabin"
+                "name": "Lumberlove Cabin",
+                "rawName": "Arena_L11"
             },
             "clanRank": 16,
             "previousClanRank": 18,
@@ -300,7 +316,8 @@
             "trophies": 10181,
             "arena": {
                 "id": 54000117,
-                "name": "Lumberlove Cabin"
+                "name": "Lumberlove Cabin",
+                "rawName": "Arena_L11"
             },
             "clanRank": 17,
             "previousClanRank": 19,
@@ -317,7 +334,8 @@
             "trophies": 10181,
             "arena": {
                 "id": 54000117,
-                "name": "Lumberlove Cabin"
+                "name": "Lumberlove Cabin",
+                "rawName": "Arena_L11"
             },
             "clanRank": 18,
             "previousClanRank": 15,
@@ -334,12 +352,13 @@
             "trophies": 10180,
             "arena": {
                 "id": 54000117,
-                "name": "Lumberlove Cabin"
+                "name": "Lumberlove Cabin",
+                "rawName": "Arena_L11"
             },
             "clanRank": 19,
             "previousClanRank": 16,
             "donations": 232,
-            "donationsReceived": 290,
+            "donationsReceived": 310,
             "clanChestPoints": 0
         },
         {
@@ -351,7 +370,8 @@
             "trophies": 10177,
             "arena": {
                 "id": 54000117,
-                "name": "Lumberlove Cabin"
+                "name": "Lumberlove Cabin",
+                "rawName": "Arena_L11"
             },
             "clanRank": 20,
             "previousClanRank": 22,
@@ -368,7 +388,8 @@
             "trophies": 10175,
             "arena": {
                 "id": 54000117,
-                "name": "Lumberlove Cabin"
+                "name": "Lumberlove Cabin",
+                "rawName": "Arena_L11"
             },
             "clanRank": 21,
             "previousClanRank": 9,
@@ -385,7 +406,8 @@
             "trophies": 10130,
             "arena": {
                 "id": 54000117,
-                "name": "Lumberlove Cabin"
+                "name": "Lumberlove Cabin",
+                "rawName": "Arena_L11"
             },
             "clanRank": 22,
             "previousClanRank": 14,
@@ -402,7 +424,8 @@
             "trophies": 10120,
             "arena": {
                 "id": 54000117,
-                "name": "Lumberlove Cabin"
+                "name": "Lumberlove Cabin",
+                "rawName": "Arena_L11"
             },
             "clanRank": 23,
             "previousClanRank": 34,
@@ -419,7 +442,8 @@
             "trophies": 10098,
             "arena": {
                 "id": 54000117,
-                "name": "Lumberlove Cabin"
+                "name": "Lumberlove Cabin",
+                "rawName": "Arena_L11"
             },
             "clanRank": 24,
             "previousClanRank": 23,
@@ -436,29 +460,13 @@
             "trophies": 10095,
             "arena": {
                 "id": 54000117,
-                "name": "Lumberlove Cabin"
+                "name": "Lumberlove Cabin",
+                "rawName": "Arena_L11"
             },
             "clanRank": 25,
             "previousClanRank": 24,
             "donations": 128,
             "donationsReceived": 160,
-            "clanChestPoints": 0
-        },
-        {
-            "tag": "#2VLR9U90",
-            "name": "EDDIE",
-            "role": "coLeader",
-            "lastSeen": "20251207T070654.000Z",
-            "expLevel": 65,
-            "trophies": 10089,
-            "arena": {
-                "id": 54000117,
-                "name": "Lumberlove Cabin"
-            },
-            "clanRank": 26,
-            "previousClanRank": 29,
-            "donations": 436,
-            "donationsReceived": 120,
             "clanChestPoints": 0
         },
         {
@@ -470,9 +478,10 @@
             "trophies": 10083,
             "arena": {
                 "id": 54000117,
-                "name": "Lumberlove Cabin"
+                "name": "Lumberlove Cabin",
+                "rawName": "Arena_L11"
             },
-            "clanRank": 27,
+            "clanRank": 26,
             "previousClanRank": 27,
             "donations": 80,
             "donationsReceived": 200,
@@ -482,16 +491,17 @@
             "tag": "#U220VCULP",
             "name": "joão3:16",
             "role": "coLeader",
-            "lastSeen": "20251207T043106.000Z",
+            "lastSeen": "20251207T081508.000Z",
             "expLevel": 63,
             "trophies": 10061,
             "arena": {
                 "id": 54000117,
-                "name": "Lumberlove Cabin"
+                "name": "Lumberlove Cabin",
+                "rawName": "Arena_L11"
             },
-            "clanRank": 28,
+            "clanRank": 27,
             "previousClanRank": 33,
-            "donations": 116,
+            "donations": 126,
             "donationsReceived": 0,
             "clanChestPoints": 0
         },
@@ -504,9 +514,10 @@
             "trophies": 10060,
             "arena": {
                 "id": 54000117,
-                "name": "Lumberlove Cabin"
+                "name": "Lumberlove Cabin",
+                "rawName": "Arena_L11"
             },
-            "clanRank": 29,
+            "clanRank": 28,
             "previousClanRank": 32,
             "donations": 114,
             "donationsReceived": 200,
@@ -521,12 +532,31 @@
             "trophies": 10060,
             "arena": {
                 "id": 54000117,
-                "name": "Lumberlove Cabin"
+                "name": "Lumberlove Cabin",
+                "rawName": "Arena_L11"
             },
-            "clanRank": 30,
+            "clanRank": 29,
             "previousClanRank": 26,
             "donations": 292,
             "donationsReceived": 40,
+            "clanChestPoints": 0
+        },
+        {
+            "tag": "#2VLR9U90",
+            "name": "EDDIE",
+            "role": "coLeader",
+            "lastSeen": "20251207T091701.000Z",
+            "expLevel": 65,
+            "trophies": 10053,
+            "arena": {
+                "id": 54000117,
+                "name": "Lumberlove Cabin",
+                "rawName": "Arena_L11"
+            },
+            "clanRank": 30,
+            "previousClanRank": 29,
+            "donations": 436,
+            "donationsReceived": 120,
             "clanChestPoints": 0
         },
         {
@@ -538,7 +568,8 @@
             "trophies": 10030,
             "arena": {
                 "id": 54000117,
-                "name": "Lumberlove Cabin"
+                "name": "Lumberlove Cabin",
+                "rawName": "Arena_L11"
             },
             "clanRank": 31,
             "previousClanRank": 0,
@@ -555,7 +586,8 @@
             "trophies": 10030,
             "arena": {
                 "id": 54000117,
-                "name": "Lumberlove Cabin"
+                "name": "Lumberlove Cabin",
+                "rawName": "Arena_L11"
             },
             "clanRank": 32,
             "previousClanRank": 30,
@@ -572,7 +604,8 @@
             "trophies": 10030,
             "arena": {
                 "id": 54000117,
-                "name": "Lumberlove Cabin"
+                "name": "Lumberlove Cabin",
+                "rawName": "Arena_L11"
             },
             "clanRank": 33,
             "previousClanRank": 28,
@@ -589,7 +622,8 @@
             "trophies": 10030,
             "arena": {
                 "id": 54000117,
-                "name": "Lumberlove Cabin"
+                "name": "Lumberlove Cabin",
+                "rawName": "Arena_L11"
             },
             "clanRank": 34,
             "previousClanRank": 25,
@@ -606,7 +640,8 @@
             "trophies": 10030,
             "arena": {
                 "id": 54000117,
-                "name": "Lumberlove Cabin"
+                "name": "Lumberlove Cabin",
+                "rawName": "Arena_L11"
             },
             "clanRank": 35,
             "previousClanRank": 31,
@@ -623,7 +658,8 @@
             "trophies": 9883,
             "arena": {
                 "id": 54000031,
-                "name": "Legendary Arena"
+                "name": "Legendary Arena",
+                "rawName": "Arena_L10"
             },
             "clanRank": 36,
             "previousClanRank": 35,
@@ -640,7 +676,8 @@
             "trophies": 9634,
             "arena": {
                 "id": 54000031,
-                "name": "Legendary Arena"
+                "name": "Legendary Arena",
+                "rawName": "Arena_L10"
             },
             "clanRank": 37,
             "previousClanRank": 36,
@@ -657,7 +694,8 @@
             "trophies": 9624,
             "arena": {
                 "id": 54000031,
-                "name": "Legendary Arena"
+                "name": "Legendary Arena",
+                "rawName": "Arena_L10"
             },
             "clanRank": 38,
             "previousClanRank": 37,
@@ -674,7 +712,8 @@
             "trophies": 9406,
             "arena": {
                 "id": 54000020,
-                "name": "Valkalla"
+                "name": "Valkalla",
+                "rawName": "Arena_L9"
             },
             "clanRank": 39,
             "previousClanRank": 38,
@@ -686,16 +725,17 @@
             "tag": "#200JYCVYGY",
             "name": "Rodolfos",
             "role": "coLeader",
-            "lastSeen": "20251207T011450.000Z",
+            "lastSeen": "20251207T083859.000Z",
             "expLevel": 52,
-            "trophies": 9246,
+            "trophies": 9307,
             "arena": {
                 "id": 54000020,
-                "name": "Valkalla"
+                "name": "Valkalla",
+                "rawName": "Arena_L9"
             },
             "clanRank": 40,
             "previousClanRank": 39,
-            "donations": 0,
+            "donations": 10,
             "donationsReceived": 0,
             "clanChestPoints": 0
         },
@@ -708,7 +748,8 @@
             "trophies": 9187,
             "arena": {
                 "id": 54000020,
-                "name": "Valkalla"
+                "name": "Valkalla",
+                "rawName": "Arena_L9"
             },
             "clanRank": 41,
             "previousClanRank": 40,
@@ -725,7 +766,8 @@
             "trophies": 9024,
             "arena": {
                 "id": 54000020,
-                "name": "Valkalla"
+                "name": "Valkalla",
+                "rawName": "Arena_L9"
             },
             "clanRank": 42,
             "previousClanRank": 41,
@@ -742,7 +784,8 @@
             "trophies": 9000,
             "arena": {
                 "id": 54000020,
-                "name": "Valkalla"
+                "name": "Valkalla",
+                "rawName": "Arena_L9"
             },
             "clanRank": 43,
             "previousClanRank": 42,
@@ -754,12 +797,13 @@
             "tag": "#PCPCJU20Y",
             "name": "polaris",
             "role": "elder",
-            "lastSeen": "20251206T214835.000Z",
+            "lastSeen": "20251207T091737.000Z",
             "expLevel": 43,
             "trophies": 8860,
             "arena": {
                 "id": 54000019,
-                "name": "PANCAKES!"
+                "name": "PANCAKES!",
+                "rawName": "Arena_L8"
             },
             "clanRank": 44,
             "previousClanRank": 43,
@@ -776,7 +820,8 @@
             "trophies": 8771,
             "arena": {
                 "id": 54000019,
-                "name": "PANCAKES!"
+                "name": "PANCAKES!",
+                "rawName": "Arena_L8"
             },
             "clanRank": 45,
             "previousClanRank": 44,
@@ -793,7 +838,8 @@
             "trophies": 8647,
             "arena": {
                 "id": 54000019,
-                "name": "PANCAKES!"
+                "name": "PANCAKES!",
+                "rawName": "Arena_L8"
             },
             "clanRank": 46,
             "previousClanRank": 45,
@@ -810,7 +856,8 @@
             "trophies": 8587,
             "arena": {
                 "id": 54000019,
-                "name": "PANCAKES!"
+                "name": "PANCAKES!",
+                "rawName": "Arena_L8"
             },
             "clanRank": 47,
             "previousClanRank": 46,
@@ -827,7 +874,8 @@
             "trophies": 7769,
             "arena": {
                 "id": 54000017,
-                "name": "Boot Camp"
+                "name": "Boot Camp",
+                "rawName": "Arena_L6"
             },
             "clanRank": 48,
             "previousClanRank": 47,
