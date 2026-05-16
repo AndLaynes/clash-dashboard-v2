@@ -1,0 +1,2 @@
+-keep class com.xdownloader.app.data.db.** { *; }
+-keep class com.xdownloader.app.domain.model.** { *; }
